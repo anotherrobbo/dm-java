@@ -49,12 +49,6 @@ body {
   }
 }
 
-.loading-spinner {
-    @extend .glyphicon;
-    @extend .glyphicon-refresh;
-    @extend .glyphicon-spin;
-}
-
 .progress-bar {
     float: none;
 }

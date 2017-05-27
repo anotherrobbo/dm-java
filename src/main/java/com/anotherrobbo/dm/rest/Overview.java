@@ -9,6 +9,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
+import com.anotherrobbo.dm.external.BungieInterface.BungieInterfaceException;
 import com.anotherrobbo.dm.freemarker.FreemarkerUtil;
 import com.anotherrobbo.dm.model.Player;
 import com.anotherrobbo.dm.service.PlayerService;
@@ -24,7 +25,7 @@ public class Overview {
 
 	@GET
 	@Path("{system}/{name}")
-	public Response getOverview(@PathParam("system") String system, @PathParam("name") String name) {
+	public Response getOverview(@PathParam("system") String system, @PathParam("name") String name) throws BungieInterfaceException {
 		Map<String, Object> dataModel = new HashMap<>();
 		Player p = playerService.getPlayer(system, name);
 		dataModel.put("player", p);

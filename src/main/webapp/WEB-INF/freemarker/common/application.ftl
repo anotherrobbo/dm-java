@@ -10,6 +10,7 @@
 	<link href="${url.resourcePath + 'css/'}bootstrap.css" rel="stylesheet" />
 	<link href="${url.resourcePath + 'css/'}application.css" rel="stylesheet" />
 	<link href="${url.resourcePath + 'css/' + page}.css" rel="stylesheet" />
+	<script>var rootUrl = "${url.rootUrl}";</script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
 	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	  crossorigin="anonymous"></script>
@@ -30,7 +31,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Destiny Matches</a>
+          <a class="navbar-brand" href="${url.rootUrl}/">Destiny Matches</a>
         </div>
     </div>
 </div>

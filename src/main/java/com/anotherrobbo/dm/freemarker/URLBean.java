@@ -14,4 +14,8 @@ public class URLBean {
 		return servletContext.getContextPath() + "/resources/";
 	}
 	
+	public String getRootUrl() {
+		return servletContext.getContextPath();
+	}
+	
 }

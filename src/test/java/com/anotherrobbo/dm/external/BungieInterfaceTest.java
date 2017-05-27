@@ -17,4 +17,18 @@ public class BungieInterfaceTest {
 		log.info(response);
 	}
 	
+	@Test
+	public void testGetPlayerInfo() throws Exception {
+		JsonNode response = BungieInterface.getPlayerInfo(2, "eraseme");
+		Assert.assertNotNull(response);
+		log.info(response);
+	}
+	
+	@Test
+	public void testGetPlayerSummary() throws Exception {
+		JsonNode response = BungieInterface.getPlayerSummary(2, 4611686018450420334L);
+		Assert.assertNotNull(response);
+		log.info(response);
+	}
+	
 }

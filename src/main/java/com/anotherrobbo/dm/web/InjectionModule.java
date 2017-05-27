@@ -6,6 +6,7 @@ import javax.servlet.ServletContext;
 import com.anotherrobbo.dm.entity.manager.EntityManagerProvider;
 import com.anotherrobbo.dm.rest.Admin;
 import com.anotherrobbo.dm.rest.Index;
+import com.anotherrobbo.dm.rest.Matches;
 import com.anotherrobbo.dm.rest.Overview;
 import com.anotherrobbo.dm.rest.Resources;
 import com.anotherrobbo.dm.rest.Search;
@@ -24,6 +25,7 @@ public class InjectionModule extends AbstractModule {
 		bind(Index.class);
 		bind(Search.class);
 		bind(Overview.class);
+		bind(Matches.class);
 		bind(Admin.class);
 		bind(Resources.class);
 		bind(ServletContext.class).toInstance(context);

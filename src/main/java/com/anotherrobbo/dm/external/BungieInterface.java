@@ -25,9 +25,27 @@ public class BungieInterface {
 	public static JsonNode searchPlayers(String name) throws BungieInterfaceException {
 		JsonNode players = bungieClient.get().searchPlayers(name);
 		verifyResponse(players);
-		return players;
+		return players.get("Response");
 	}
 	
+	public static JsonNode getPlayerInfo(Integer systemCode, String name) throws BungieInterfaceException {
+		JsonNode players = bungieClient.get().playerInfo(systemCode, name);
+		verifyResponse(players);
+		return players.get("Response").get(0);
+	}
+	
+	public static JsonNode getPlayerSummary(int systemCode, long id) throws BungieInterfaceException {
+		JsonNode players = bungieClient.get().playerSummary(systemCode, id);
+		verifyResponse(players);
+		return players.get("Response");
+	}
+	
+	public static String getMetadata(String type, String typeDef, String hash) throws BungieInterfaceException {
+		JsonNode metadata = bungieClient.get().metadata(type, hash);
+		verifyResponse(metadata);
+		return metadata.get("Response").get(typeDef).asText();
+	}
+
 	private static void verifyResponse(JsonNode response) throws BungieInterfaceException {
 		JsonNode jsonNode = response.get("ErrorCode");
 		if (jsonNode.asInt(1) != 1) {
@@ -56,4 +74,5 @@ public class BungieInterface {
 			super(errorCode + " : " + errorMessage);
 		}
 	}
+
 }

@@ -30,7 +30,7 @@ public class PlayerRecordDao {
 	}
 	
 	public void save(PlayerRecord pr) {
-		em.persist(pr);
+		em.merge(pr);
 	}
 
 }

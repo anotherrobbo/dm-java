@@ -27,8 +27,7 @@ public class Search {
 		
 		try {
 			JsonNode jsonPlayers = BungieInterface.searchPlayers(name);
-			JsonNode pArray = jsonPlayers.get("Response");
-			players.addAll(convertPlayers(pArray));
+			players.addAll(convertPlayers(jsonPlayers));
 		} catch (BungieInterfaceException e) {
 			e.printStackTrace();
 		}

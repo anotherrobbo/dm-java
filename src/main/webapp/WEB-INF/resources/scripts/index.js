@@ -2,7 +2,6 @@
 	var methods = {
 		// Initialise plugin.
 		init: function() {
-			$('.loading-spinner').show();
 		    $('#search-form').submit(function(event) {
 		        methods.search();
                 event.preventDefault();
@@ -13,9 +12,8 @@
             $('#results').html('');
             $('.loading-spinner').show();
 			$.ajax({
-				url:'search',
+				url:'search/' + $('#un').val(),
 				type:'GET',
-                data:{'un':$('#un').val()},
 				success:function(data){
 					$('.loading-spinner').hide();
                     if (data.length == 0) {
@@ -34,13 +32,13 @@
 		},
         
         load: function(p) {
-			window.location = rootUrl + 'overview/' + p.system + '/' + p.name;
+			window.location = rootUrl + '/overview/' + p.system + '/' + p.name;
 		},
         
         show: function(ps) {
 			var results = '';
             for (i in ps) {
-                results += '<a href="' + rootUrl + 'overview/' + ps[i].system + '/' + ps[i].name + '" class="list-group-item"><img class="img-circle" alt="' + ps[i].system + '" title="' + ps[i].system + '" src="' + ps[i].systemIcon + '"/> ' + ps[i].name + '</a>';
+                results += '<a href="' + rootUrl + '/overview/' + ps[i].system + '/' + ps[i].name + '" class="list-group-item"><img class="img-circle" alt="' + ps[i].system + '" title="' + ps[i].system + '" src="' + ps[i].systemIcon + '"/> ' + ps[i].name + '</a>';
             }
             $('#results').html(results);
 		}
