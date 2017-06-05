@@ -31,4 +31,11 @@ public class BungieInterfaceTest {
 		log.info(response);
 	}
 	
+	@Test
+	public void testGetPlayerChars() throws Exception {
+		JsonNode response = BungieInterface.getPlayerChars(2, 4611686018450420334L);
+		Assert.assertNotNull(response);
+		log.info(response);
+	}
+	
 }

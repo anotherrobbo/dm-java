@@ -9,6 +9,7 @@ import javax.persistence.TypedQuery;
 import org.apache.commons.lang3.StringUtils;
 
 import com.anotherrobbo.dm.entity.PlayerRecord;
+import com.google.inject.persist.Transactional;
 
 public class PlayerRecordDao {
 	
@@ -29,6 +30,7 @@ public class PlayerRecordDao {
 		return resultList.isEmpty() ? null : resultList.get(0);
 	}
 	
+	@Transactional
 	public void save(PlayerRecord pr) {
 		em.merge(pr);
 	}

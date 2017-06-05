@@ -13,8 +13,8 @@ import javax.ws.rs.core.Response;
 
 import com.anotherrobbo.dm.external.BungieInterface.BungieInterfaceException;
 import com.anotherrobbo.dm.freemarker.FreemarkerUtil;
+import com.anotherrobbo.dm.job.MatchProcess;
 import com.anotherrobbo.dm.service.MatchService;
-import com.anotherrobbo.dm.service.MatchService.MatchProcess;
 
 @Path("/match")
 public class Matches {

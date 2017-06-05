@@ -1,9 +1,8 @@
 package com.anotherrobbo.dm.entity;
 
-import java.io.Serializable;
-import java.sql.Timestamp;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -23,44 +22,30 @@ import javax.persistence.Table;
 	@NamedQuery(name="PlayerRecord.findAll", query="SELECT p FROM PlayerRecord p"),
 	@NamedQuery(name="PlayerRecord.findBySystemName", query="SELECT p FROM PlayerRecord p where upper(p.system) = :system AND upper(p.name) = :name")
 })
-public class PlayerRecord implements Serializable {
+public class PlayerRecord extends BaseEntity {
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	private Long id;
 	
-	@Column(name="created_at")
-	private Timestamp createdAt;
-
 	@Column(name="matches_count")
-	private Long matchesCount;
+	private long matchesCount;
 
 	private String name;
 
 	@Column(name="overview_count")
-	private Long overviewCount;
+	private long overviewCount;
 
 	private String system;
 
 	@Column(name="system_code")
 	private Integer systemCode;
 
-	@Column(name="updated_at")
-	private Timestamp updatedAt;
-
-	//bi-directional many-to-one association to ActivityRecord
-	@OneToMany(mappedBy="playerRecord")
-	private List<ActivityRecord> activityRecords;
+	//bi-directional many-to-one association to CharacterRecord
+	@OneToMany(mappedBy="playerRecord", cascade=CascadeType.ALL)
+	private List<CharacterRecord> characterRecords;
 
 	public PlayerRecord() {
-	}
-
-	public Timestamp getCreatedAt() {
-		return this.createdAt;
-	}
-
-	public void setCreatedAt(Timestamp createdAt) {
-		this.createdAt = createdAt;
 	}
 
 	public Long getMatchesCount() {
@@ -111,34 +96,43 @@ public class PlayerRecord implements Serializable {
 		this.systemCode = systemCode;
 	}
 
-	public Timestamp getUpdatedAt() {
-		return this.updatedAt;
+	public List<CharacterRecord> getCharacterRecords() {
+		return this.characterRecords;
 	}
 
-	public void setUpdatedAt(Timestamp updatedAt) {
-		this.updatedAt = updatedAt;
+	public void setCharacterRecords(List<CharacterRecord> characterRecords) {
+		this.characterRecords = characterRecords;
 	}
 
-	public List<ActivityRecord> getActivityRecords() {
-		return this.activityRecords;
+	public CharacterRecord addCharacterRecord(CharacterRecord characterRecord) {
+		getCharacterRecords().add(characterRecord);
+		characterRecord.setPlayerRecord(this);
+
+		return characterRecord;
 	}
 
-	public void setActivityRecords(List<ActivityRecord> activityRecords) {
-		this.activityRecords = activityRecords;
+	public CharacterRecord removeCharacterRecord(CharacterRecord characterRecord) {
+		getCharacterRecords().remove(characterRecord);
+		characterRecord.setPlayerRecord(null);
+
+		return characterRecord;
+	}
+	
+	public CharacterRecord getCharacterRecord(Long characterId) {
+		for (CharacterRecord record : getCharacterRecords()) {
+			if (characterId.equals(record.getId())) {
+				return record;
+			}
+		}
+		return null;
 	}
 
-	public ActivityRecord addActivityRecord(ActivityRecord activityRecord) {
-		getActivityRecords().add(activityRecord);
-		activityRecord.setPlayerRecord(this);
-
-		return activityRecord;
+	public void incrementOverviewCount() {
+		this.overviewCount++;
 	}
-
-	public ActivityRecord removeActivityRecord(ActivityRecord activityRecord) {
-		getActivityRecords().remove(activityRecord);
-		activityRecord.setPlayerRecord(null);
-
-		return activityRecord;
+	
+	public void incrementMatchesCount() {
+		this.matchesCount++;
 	}
 
 }

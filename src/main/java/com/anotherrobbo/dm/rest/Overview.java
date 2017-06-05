@@ -27,7 +27,7 @@ public class Overview {
 	@Path("{system}/{name}")
 	public Response getOverview(@PathParam("system") String system, @PathParam("name") String name) throws BungieInterfaceException {
 		Map<String, Object> dataModel = new HashMap<>();
-		Player p = playerService.getPlayer(system, name);
+		Player p = playerService.getPlayerOverview(system, name);
 		dataModel.put("player", p);
 		return freemarkerUtil.render(dataModel, "/player/show.ftl");
 	}

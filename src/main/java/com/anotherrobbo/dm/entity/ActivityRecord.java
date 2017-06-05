@@ -1,9 +1,7 @@
 package com.anotherrobbo.dm.entity;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -19,43 +17,20 @@ import javax.persistence.Table;
 @Entity
 @Table(name="activity_records")
 @NamedQuery(name="ActivityRecord.findAll", query="SELECT a FROM ActivityRecord a")
-public class ActivityRecord implements Serializable {
+public class ActivityRecord extends BaseEntity {
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	private Long id;
 
-	private String activities;
-
-	@Column(name="created_at")
-	private Timestamp createdAt;
-
-
-	@Column(name="updated_at")
-	private Timestamp updatedAt;
+	private Timestamp period;
 
 	//bi-directional many-to-one association to PlayerRecord
 	@ManyToOne
-	@JoinColumn(name="player_record_id", referencedColumnName="id")
-	private PlayerRecord playerRecord;
+	@JoinColumn(name="character_record_id", referencedColumnName="id")
+	private CharacterRecord characterRecord;
 
 	public ActivityRecord() {
-	}
-
-	public String getActivities() {
-		return this.activities;
-	}
-
-	public void setActivities(String activities) {
-		this.activities = activities;
-	}
-
-	public Timestamp getCreatedAt() {
-		return this.createdAt;
-	}
-
-	public void setCreatedAt(Timestamp createdAt) {
-		this.createdAt = createdAt;
 	}
 
 	public Long getId() {
@@ -65,21 +40,21 @@ public class ActivityRecord implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	public Timestamp getUpdatedAt() {
-		return this.updatedAt;
+	
+	public Timestamp getPeriod() {
+		return period;
+	}
+	
+	public void setPeriod(Timestamp period) {
+		this.period = period;
 	}
 
-	public void setUpdatedAt(Timestamp updatedAt) {
-		this.updatedAt = updatedAt;
+	public CharacterRecord getCharacterRecord() {
+		return characterRecord;
 	}
-
-	public PlayerRecord getPlayerRecord() {
-		return this.playerRecord;
-	}
-
-	public void setPlayerRecord(PlayerRecord playerRecord) {
-		this.playerRecord = playerRecord;
+	
+	public void setCharacterRecord(CharacterRecord characterRecord) {
+		this.characterRecord = characterRecord;
 	}
 
 }

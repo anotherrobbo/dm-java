@@ -13,7 +13,7 @@
                         <th class="text-right">M</th>
                         <th class="text-right">Created</th>
                         <th class="text-right">Updated</th>
-                        <th class="text-right">ARs</th>
+                        <th class="text-right">CRs</th>
                     </tr></thead>
                     <tbody>
                     <#list records as p_rec>
@@ -23,7 +23,7 @@
                             <td class="text-right">${p_rec.matchesCount}</td>
                             <td class="text-right dateCell">${p_rec.createdAt}</td>
                             <td class="text-right dateCell">${p_rec.updatedAt}</td>
-                            <td class="text-right">${p_rec.activityRecords?size}</td>
+                            <td class="text-right">${p_rec.characterRecords?size}</td>
                         </tr>
                     </#list>
                     </tbody>

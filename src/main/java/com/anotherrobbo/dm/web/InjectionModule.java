@@ -1,9 +1,7 @@
 package com.anotherrobbo.dm.web;
 
-import javax.persistence.EntityManager;
 import javax.servlet.ServletContext;
 
-import com.anotherrobbo.dm.entity.manager.EntityManagerProvider;
 import com.anotherrobbo.dm.rest.Admin;
 import com.anotherrobbo.dm.rest.Index;
 import com.anotherrobbo.dm.rest.Matches;
@@ -29,6 +27,5 @@ public class InjectionModule extends AbstractModule {
 		bind(Admin.class);
 		bind(Resources.class);
 		bind(ServletContext.class).toInstance(context);
-		bind(EntityManager.class).toProvider(EntityManagerProvider.class);
 	}
 }

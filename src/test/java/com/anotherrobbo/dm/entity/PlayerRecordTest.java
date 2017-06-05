@@ -11,9 +11,6 @@ import org.jboss.logging.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.anotherrobbo.dm.entity.ActivityRecord;
-import com.anotherrobbo.dm.entity.PlayerRecord;
-
 public class PlayerRecordTest {
 	
 	Logger log = Logger.getLogger(PlayerRecordTest.class);
@@ -37,10 +34,10 @@ public class PlayerRecordTest {
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		PlayerRecord record = entityManager.find(PlayerRecord.class, 4611686018450420334L);
 		Assert.assertNotNull(record);
-		Assert.assertNotNull(record.getActivityRecords());
-		Assert.assertFalse(record.getActivityRecords().isEmpty());
-		for (ActivityRecord ar : record.getActivityRecords()) {
-			log.info(ar.getId());
+		Assert.assertNotNull(record.getCharacterRecords());
+		Assert.assertFalse(record.getCharacterRecords().isEmpty());
+		for (CharacterRecord cr : record.getCharacterRecords()) {
+			log.info(cr.getId());
 		}
 	}
 	

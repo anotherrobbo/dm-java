@@ -1,26 +1,34 @@
 package com.anotherrobbo.dm.service;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.Iterator;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-import org.apache.commons.lang3.concurrent.ConcurrentUtils;
-
+import com.anotherrobbo.dm.entity.CharacterRecord;
+import com.anotherrobbo.dm.entity.PlayerRecord;
+import com.anotherrobbo.dm.entity.dao.PlayerRecordDao;
+import com.anotherrobbo.dm.external.BungieInterface;
 import com.anotherrobbo.dm.external.BungieInterface.BungieInterfaceException;
-import com.anotherrobbo.dm.model.Player;
+import com.anotherrobbo.dm.job.MatchJob;
+import com.anotherrobbo.dm.job.MatchProcess;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
 
 @Singleton
 public class MatchService {
 	
-	private Map<String, MatchProcess> processMap = new HashMap<>();
+	private Cache<String, MatchProcess> processCache = CacheBuilder.newBuilder().expireAfterWrite(10, TimeUnit.MINUTES).build();
 	private ExecutorService processExecutor = Executors.newCachedThreadPool();
 	@Inject
 	private PlayerService playerService;
+	@Inject
+	private PlayerRecordDao playerRecordDao;
 	
 	public MatchProcess findMatches(String system, String name, String name2) {
 		MatchProcess process = new MatchProcess();
@@ -28,17 +36,22 @@ public class MatchService {
 		process.setName2(name2);
 		
 		try {
-			Player player1 = playerService.getPlayer(system, name);
-			Player player2 = playerService.getPlayer(system, name2);
+			PlayerRecord player1 = playerService.getPlayerRecord(system, name);
+			PlayerRecord player2 = playerService.getPlayerRecord(system, name2);
 			
 			if (player1 != null && player2 != null) {
-				process.setTotal(player1.getChars().size() + player2.getChars().size());
+				player1.incrementMatchesCount();
+				player2.incrementMatchesCount();
+				List<CharacterRecord> c1 = getCharacterRecords(player1);
+				List<CharacterRecord> c2 = getCharacterRecords(player2);
+				
+				process.setTotal(c1.size() + c2.size());
 				process.setName1(player1.getName());
 				process.setName2(player2.getName());
 				
-				processExecutor.execute(new MatchProcessTask(process, player1, player2, false));
+				processExecutor.execute(new MatchJob(process, player1, player2, false));
 				
-				processMap.put(process.getId(), process);
+				processCache.put(process.getId(), process);
 			} else if (player1 == null) {
 				process.setError("Unable to find " + name);
 			} else if (player2 == null) {
@@ -52,81 +65,26 @@ public class MatchService {
 	}
 	
 	public MatchProcess pollProcess(String id) {
-		return processMap.get(id);
+		return processCache.getIfPresent(id);
 	}
 	
-	public static class MatchProcess {
-		private final String id = UUID.randomUUID().toString();
-		private String name1;
-		private String name2;
-		private int total;
-		private int progress;
-		private String error;
-		
-		public String getId() {
-			return id;
-		}
-		
-		public String getName1() {
-			return name1;
-		}
-		public void setName1(String name1) {
-			this.name1 = name1;
-		}
-		
-		public String getName2() {
-			return name2;
-		}
-		public void setName2(String name2) {
-			this.name2 = name2;
-		}
-		
-		public int getTotal() {
-			return total;
-		}
-		public void setTotal(int total) {
-			this.total = total;
-		}
-		
-		public int getProgress() {
-			return progress;
-		}
-		public void setProgress(int progress) {
-			this.progress = progress;
-		}
-		
-		public String getError() {
-			return error;
-		}
-		public void setError(String error) {
-			this.error = error;
-		}
-	}
-	
-	private class MatchProcessTask implements Runnable {
-		private final MatchProcess process;
-		private final Player p1;
-		private final Player p2;
-		private final boolean forceCheck;
-		
-		public MatchProcessTask(MatchProcess process, Player p1, Player p2, boolean forceCheck) {
-			this.process = process;
-			this.p1 = p1;
-			this.p2 = p2;
-			this.forceCheck = forceCheck;
-		}
-
-		@Override
-		public void run() {
-			while (process.progress < process.total) {
-				try {
-					Thread.sleep(2000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-				process.setProgress(process.progress + 1);
+	private List<CharacterRecord> getCharacterRecords(PlayerRecord player) throws BungieInterfaceException {
+		JsonNode chars = BungieInterface.getPlayerChars(player.getSystemCode(), player.getId());
+		Iterator<JsonNode> elements = chars.elements();
+		while (elements.hasNext()) {
+			JsonNode charNode = elements.next();
+			long characterId = charNode.get("characterId").asLong();
+			CharacterRecord record = player.getCharacterRecord(characterId);
+			if (record == null) {
+				record = new CharacterRecord();
+				record.setId(characterId);
+				player.addCharacterRecord(record);
 			}
+			record.setActive(!charNode.get("deleted").asBoolean());
 		}
+		
+		playerRecordDao.save(player);
+		return player.getCharacterRecords();
 	}
-
+	
 }

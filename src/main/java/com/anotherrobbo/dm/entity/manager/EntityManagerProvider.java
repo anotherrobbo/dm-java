@@ -3,18 +3,13 @@ package com.anotherrobbo.dm.entity.manager;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.inject.Provider;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * Uses properties specifically for AWS 
  * 
  */
-public class EntityManagerProvider implements Provider<EntityManager> {
+public class EntityManagerProvider {
 	
 	private static final String PROP_DB_USERNAME = "RDS_USERNAME";
 	private static final String PROP_DB_PASSWORD = "RDS_PASSWORD";
@@ -26,15 +21,7 @@ public class EntityManagerProvider implements Provider<EntityManager> {
 	private static final String PROP_CONN_PASSWORD = "hibernate.connection.password";
 	private static final String PROP_CONN_URL = "hibernate.connection.url";
 
-	@Override
-	public EntityManager get() {
-		Map<String, String> propertyOverrides = getPropertyOverrides();		
-		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("dm", propertyOverrides);
-		EntityManager entityManager = entityManagerFactory.createEntityManager();
-		return entityManager;
-	}
-	
-	private Map<String, String> getPropertyOverrides() {
+	public static Map<String, String> getPropertyOverrides() {
 		Map<String, String> overrides = new HashMap<String, String>();
 		if (StringUtils.isNotBlank(System.getProperty(PROP_DB_USERNAME))) {
 			overrides.put(PROP_CONN_USERNAME, System.getProperty(PROP_DB_USERNAME));

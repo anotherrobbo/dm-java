@@ -1,0 +1,3902 @@
+{
+	"mergedDeletedCharacters": {
+		"results": {
+			"allPvE": {
+				"allTime": {
+					"activitiesCleared": {
+						"statId": "activitiesCleared",
+						"basic": {
+							"value": 229.0,
+							"displayValue": "229"
+						}
+					},
+					"weaponKillsSuper": {
+						"statId": "weaponKillsSuper",
+						"basic": {
+							"value": 824.0,
+							"displayValue": "824"
+						},
+						"pga": {
+							"value": 2.4597014925373135,
+							"displayValue": "2.5"
+						}
+					},
+					"activitiesEntered": {
+						"statId": "activitiesEntered",
+						"basic": {
+							"value": 335.0,
+							"displayValue": "335"
+						}
+					},
+					"weaponKillsMelee": {
+						"statId": "weaponKillsMelee",
+						"basic": {
+							"value": 4179.0,
+							"displayValue": "4179"
+						},
+						"pga": {
+							"value": 12.474626865671642,
+							"displayValue": "12.5"
+						}
+					},
+					"weaponKillsGrenade": {
+						"statId": "weaponKillsGrenade",
+						"basic": {
+							"value": 2441.0,
+							"displayValue": "2441"
+						},
+						"pga": {
+							"value": 7.286567164179105,
+							"displayValue": "7.3"
+						}
+					},
+					"abilityKills": {
+						"statId": "abilityKills",
+						"basic": {
+							"value": 7444.0,
+							"displayValue": "7444"
+						},
+						"pga": {
+							"value": 22.22089552238806,
+							"displayValue": "22.2"
+						}
+					},
+					"assists": {
+						"statId": "assists",
+						"basic": {
+							"value": 7258.0,
+							"displayValue": "7258"
+						},
+						"pga": {
+							"value": 21.665671641791043,
+							"displayValue": "21.7"
+						}
+					},
+					"totalDeathDistance": {
+						"statId": "totalDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"averageDeathDistance": {
+						"statId": "averageDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"totalKillDistance": {
+						"statId": "totalKillDistance",
+						"basic": {
+							"value": 525045.0,
+							"displayValue": "525045.0"
+						}
+					},
+					"kills": {
+						"statId": "kills",
+						"basic": {
+							"value": 29303.0,
+							"displayValue": "29303"
+						},
+						"pga": {
+							"value": 87.47164179104477,
+							"displayValue": "87.5"
+						}
+					},
+					"averageKillDistance": {
+						"statId": "averageKillDistance",
+						"basic": {
+							"value": 17.917789987373308,
+							"displayValue": "17.9"
+						}
+					},
+					"secondsPlayed": {
+						"statId": "secondsPlayed",
+						"basic": {
+							"value": 529540.0,
+							"displayValue": "6d 3h"
+						},
+						"pga": {
+							"value": 1580.7164179104477,
+							"displayValue": "26m 20s"
+						}
+					},
+					"deaths": {
+						"statId": "deaths",
+						"basic": {
+							"value": 1462.0,
+							"displayValue": "1462"
+						},
+						"pga": {
+							"value": 4.364179104477612,
+							"displayValue": "4.4"
+						}
+					},
+					"averageLifespan": {
+						"statId": "averageLifespan",
+						"basic": {
+							"value": 361.9548872180451,
+							"displayValue": "6m 1s"
+						}
+					},
+					"bestSingleGameKills": {
+						"statId": "bestSingleGameKills",
+						"basic": {
+							"value": 943.0,
+							"displayValue": "943"
+						}
+					},
+					"killsDeathsRatio": {
+						"statId": "killsDeathsRatio",
+						"basic": {
+							"value": 20.043091655266757,
+							"displayValue": "20.04"
+						}
+					},
+					"killsDeathsAssists": {
+						"statId": "killsDeathsAssists",
+						"basic": {
+							"value": 22.52530779753762,
+							"displayValue": "22.53"
+						}
+					},
+					"objectivesCompleted": {
+						"statId": "objectivesCompleted",
+						"basic": {
+							"value": 125.0,
+							"displayValue": "125"
+						},
+						"pga": {
+							"value": 0.373134328358209,
+							"displayValue": "0.4"
+						}
+					},
+					"precisionKills": {
+						"statId": "precisionKills",
+						"basic": {
+							"value": 9000.0,
+							"displayValue": "9000"
+						},
+						"pga": {
+							"value": 26.865671641791046,
+							"displayValue": "26.9"
+						}
+					},
+					"resurrectionsPerformed": {
+						"statId": "resurrectionsPerformed",
+						"basic": {
+							"value": 487.0,
+							"displayValue": "487"
+						},
+						"pga": {
+							"value": 1.4537313432835821,
+							"displayValue": "1.5"
+						}
+					},
+					"resurrectionsReceived": {
+						"statId": "resurrectionsReceived",
+						"basic": {
+							"value": 538.0,
+							"displayValue": "538"
+						},
+						"pga": {
+							"value": 1.6059701492537313,
+							"displayValue": "1.6"
+						}
+					},
+					"suicides": {
+						"statId": "suicides",
+						"basic": {
+							"value": 214.0,
+							"displayValue": "214"
+						},
+						"pga": {
+							"value": 0.6388059701492538,
+							"displayValue": "0.6"
+						}
+					},
+					"weaponKillsAutoRifle": {
+						"statId": "weaponKillsAutoRifle",
+						"basic": {
+							"value": 2380.0,
+							"displayValue": "2380"
+						},
+						"pga": {
+							"value": 7.104477611940299,
+							"displayValue": "7.1"
+						}
+					},
+					"weaponKillsFusionRifle": {
+						"statId": "weaponKillsFusionRifle",
+						"basic": {
+							"value": 1663.0,
+							"displayValue": "1663"
+						},
+						"pga": {
+							"value": 4.964179104477612,
+							"displayValue": "5.0"
+						}
+					},
+					"weaponKillsHandCannon": {
+						"statId": "weaponKillsHandCannon",
+						"basic": {
+							"value": 3769.0,
+							"displayValue": "3769"
+						},
+						"pga": {
+							"value": 11.250746268656716,
+							"displayValue": "11.3"
+						}
+					},
+					"weaponKillsMachinegun": {
+						"statId": "weaponKillsMachinegun",
+						"basic": {
+							"value": 655.0,
+							"displayValue": "655"
+						},
+						"pga": {
+							"value": 1.955223880597015,
+							"displayValue": "2.0"
+						}
+					},
+					"weaponKillsPulseRifle": {
+						"statId": "weaponKillsPulseRifle",
+						"basic": {
+							"value": 3384.0,
+							"displayValue": "3384"
+						},
+						"pga": {
+							"value": 10.101492537313433,
+							"displayValue": "10.1"
+						}
+					},
+					"weaponKillsRocketLauncher": {
+						"statId": "weaponKillsRocketLauncher",
+						"basic": {
+							"value": 220.0,
+							"displayValue": "220"
+						},
+						"pga": {
+							"value": 0.6567164179104478,
+							"displayValue": "0.7"
+						}
+					},
+					"weaponKillsScoutRifle": {
+						"statId": "weaponKillsScoutRifle",
+						"basic": {
+							"value": 5689.0,
+							"displayValue": "5689"
+						},
+						"pga": {
+							"value": 16.982089552238804,
+							"displayValue": "17.0"
+						}
+					},
+					"weaponKillsShotgun": {
+						"statId": "weaponKillsShotgun",
+						"basic": {
+							"value": 1310.0,
+							"displayValue": "1310"
+						},
+						"pga": {
+							"value": 3.91044776119403,
+							"displayValue": "3.9"
+						}
+					},
+					"weaponKillsSniper": {
+						"statId": "weaponKillsSniper",
+						"basic": {
+							"value": 674.0,
+							"displayValue": "674"
+						},
+						"pga": {
+							"value": 2.011940298507463,
+							"displayValue": "2.0"
+						}
+					},
+					"weaponKillsSubmachinegun": {
+						"statId": "weaponKillsSubmachinegun",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0"
+						},
+						"pga": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsRelic": {
+						"statId": "weaponKillsRelic",
+						"basic": {
+							"value": 803.0,
+							"displayValue": "803"
+						},
+						"pga": {
+							"value": 2.3970149253731345,
+							"displayValue": "2.4"
+						}
+					},
+					"weaponKillsSideArm": {
+						"statId": "weaponKillsSideArm",
+						"basic": {
+							"value": 364.0,
+							"displayValue": "364"
+						},
+						"pga": {
+							"value": 1.0865671641791044,
+							"displayValue": "1.1"
+						}
+					},
+					"weaponKillsSword": {
+						"statId": "weaponKillsSword",
+						"basic": {
+							"value": 117.0,
+							"displayValue": "117"
+						},
+						"pga": {
+							"value": 0.3492537313432836,
+							"displayValue": "0.3"
+						}
+					},
+					"weaponBestType": {
+						"statId": "weaponBestType",
+						"basic": {
+							"value": 3.0,
+							"displayValue": "Scout Rifle"
+						}
+					},
+					"allParticipantsCount": {
+						"statId": "allParticipantsCount",
+						"basic": {
+							"value": 1879.0,
+							"displayValue": "1879"
+						}
+					},
+					"allParticipantsTimePlayed": {
+						"statId": "allParticipantsTimePlayed",
+						"basic": {
+							"value": 3916436.0,
+							"displayValue": "45d 7h"
+						}
+					},
+					"longestKillSpree": {
+						"statId": "longestKillSpree",
+						"basic": {
+							"value": 211.0,
+							"displayValue": "211"
+						}
+					},
+					"longestSingleLife": {
+						"statId": "longestSingleLife",
+						"basic": {
+							"value": 5966.0,
+							"displayValue": "1h 39m"
+						}
+					},
+					"mostPrecisionKills": {
+						"statId": "mostPrecisionKills",
+						"basic": {
+							"value": 222.0,
+							"displayValue": "222"
+						}
+					},
+					"orbsDropped": {
+						"statId": "orbsDropped",
+						"basic": {
+							"value": 4442.0,
+							"displayValue": "4442"
+						},
+						"pga": {
+							"value": 13.259701492537314,
+							"displayValue": "13.3"
+						}
+					},
+					"orbsGathered": {
+						"statId": "orbsGathered",
+						"basic": {
+							"value": 3578.0,
+							"displayValue": "3578"
+						},
+						"pga": {
+							"value": 10.680597014925374,
+							"displayValue": "10.7"
+						}
+					},
+					"publicEventsCompleted": {
+						"statId": "publicEventsCompleted",
+						"basic": {
+							"value": 45.0,
+							"displayValue": "45"
+						},
+						"pga": {
+							"value": 0.13432835820895522,
+							"displayValue": "0.1"
+						}
+					},
+					"publicEventsJoined": {
+						"statId": "publicEventsJoined",
+						"basic": {
+							"value": 45.0,
+							"displayValue": "45"
+						},
+						"pga": {
+							"value": 0.13432835820895522,
+							"displayValue": "0.1"
+						}
+					},
+					"remainingTimeAfterQuitSeconds": {
+						"statId": "remainingTimeAfterQuitSeconds",
+						"basic": {
+							"value": 12736.0,
+							"displayValue": "3h 32m"
+						},
+						"pga": {
+							"value": 38.017910447761196,
+							"displayValue": "0m 38s"
+						}
+					},
+					"totalActivityDurationSeconds": {
+						"statId": "totalActivityDurationSeconds",
+						"basic": {
+							"value": 577829.0,
+							"displayValue": "6d 16h"
+						},
+						"pga": {
+							"value": 1724.8626865671642,
+							"displayValue": "28m 44s"
+						}
+					},
+					"fastestCompletion": {
+						"statId": "fastestCompletion",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0m 0s"
+						}
+					},
+					"courtOfOryxWinsTier1": {
+						"statId": "courtOfOryxWinsTier1",
+						"basic": {
+							"value": 6.0,
+							"displayValue": "6"
+						}
+					},
+					"courtOfOryxWinsTier2": {
+						"statId": "courtOfOryxWinsTier2",
+						"basic": {
+							"value": 2.0,
+							"displayValue": "2"
+						}
+					},
+					"courtOfOryxWinsTier3": {
+						"statId": "courtOfOryxWinsTier3",
+						"basic": {
+							"value": 1.0,
+							"displayValue": "1"
+						}
+					},
+					"courtOfOryxAttempts": {
+						"statId": "courtOfOryxAttempts",
+						"basic": {
+							"value": 5.0,
+							"displayValue": "5"
+						}
+					},
+					"courtOfOryxCompletions": {
+						"statId": "courtOfOryxCompletions",
+						"basic": {
+							"value": 9.0,
+							"displayValue": "9"
+						}
+					},
+					"longestKillDistance": {
+						"statId": "longestKillDistance",
+						"basic": {
+							"value": 1005.0,
+							"displayValue": "1005.0"
+						}
+					},
+					"highestCharacterLevel": {
+						"statId": "highestCharacterLevel",
+						"basic": {
+							"value": 40.0,
+							"displayValue": "40"
+						}
+					},
+					"highestLightLevel": {
+						"statId": "highestLightLevel",
+						"basic": {
+							"value": 31.0,
+							"displayValue": "31"
+						}
+					}
+				}
+			},
+			"allPvP": {
+				"allTime": {
+					"weaponKillsSuper": {
+						"statId": "weaponKillsSuper",
+						"basic": {
+							"value": 408.0,
+							"displayValue": "408"
+						},
+						"pga": {
+							"value": 1.1178082191780823,
+							"displayValue": "1.1"
+						}
+					},
+					"activitiesEntered": {
+						"statId": "activitiesEntered",
+						"basic": {
+							"value": 365.0,
+							"displayValue": "365"
+						}
+					},
+					"weaponKillsMelee": {
+						"statId": "weaponKillsMelee",
+						"basic": {
+							"value": 280.0,
+							"displayValue": "280"
+						},
+						"pga": {
+							"value": 0.7671232876712328,
+							"displayValue": "0.8"
+						}
+					},
+					"weaponKillsGrenade": {
+						"statId": "weaponKillsGrenade",
+						"basic": {
+							"value": 285.0,
+							"displayValue": "285"
+						},
+						"pga": {
+							"value": 0.7808219178082192,
+							"displayValue": "0.8"
+						}
+					},
+					"abilityKills": {
+						"statId": "abilityKills",
+						"basic": {
+							"value": 973.0,
+							"displayValue": "973"
+						},
+						"pga": {
+							"value": 2.665753424657534,
+							"displayValue": "2.7"
+						}
+					},
+					"activitiesWon": {
+						"statId": "activitiesWon",
+						"basic": {
+							"value": 164.0,
+							"displayValue": "164"
+						}
+					},
+					"assists": {
+						"statId": "assists",
+						"basic": {
+							"value": 1451.0,
+							"displayValue": "1451"
+						},
+						"pga": {
+							"value": 3.9753424657534246,
+							"displayValue": "4.0"
+						}
+					},
+					"totalDeathDistance": {
+						"statId": "totalDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"averageDeathDistance": {
+						"statId": "averageDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"totalKillDistance": {
+						"statId": "totalKillDistance",
+						"basic": {
+							"value": 41899.0,
+							"displayValue": "41899.0"
+						}
+					},
+					"kills": {
+						"statId": "kills",
+						"basic": {
+							"value": 3095.0,
+							"displayValue": "3095"
+						},
+						"pga": {
+							"value": 8.479452054794521,
+							"displayValue": "8.5"
+						}
+					},
+					"averageKillDistance": {
+						"statId": "averageKillDistance",
+						"basic": {
+							"value": 13.537641357027464,
+							"displayValue": "13.5"
+						}
+					},
+					"secondsPlayed": {
+						"statId": "secondsPlayed",
+						"basic": {
+							"value": 212299.0,
+							"displayValue": "2d 10h"
+						},
+						"pga": {
+							"value": 581.641095890411,
+							"displayValue": "9m 41s"
+						}
+					},
+					"deaths": {
+						"statId": "deaths",
+						"basic": {
+							"value": 4251.0,
+							"displayValue": "4251"
+						},
+						"pga": {
+							"value": 11.646575342465754,
+							"displayValue": "11.6"
+						}
+					},
+					"averageLifespan": {
+						"statId": "averageLifespan",
+						"basic": {
+							"value": 49.92920978363123,
+							"displayValue": "0m 49s"
+						}
+					},
+					"score": {
+						"statId": "score",
+						"basic": {
+							"value": 608494.0,
+							"displayValue": "608,494"
+						},
+						"pga": {
+							"value": 1667.1068493150685,
+							"displayValue": "1,667"
+						}
+					},
+					"averageScorePerKill": {
+						"statId": "averageScorePerKill",
+						"basic": {
+							"value": 196.60549273021002,
+							"displayValue": "197"
+						}
+					},
+					"averageScorePerLife": {
+						"statId": "averageScorePerLife",
+						"basic": {
+							"value": 143.10771401693322,
+							"displayValue": "143"
+						}
+					},
+					"bestSingleGameKills": {
+						"statId": "bestSingleGameKills",
+						"basic": {
+							"value": 24.0,
+							"displayValue": "24"
+						}
+					},
+					"bestSingleGameScore": {
+						"statId": "bestSingleGameScore",
+						"basic": {
+							"value": 6570.0,
+							"displayValue": "6,570"
+						}
+					},
+					"closeCalls": {
+						"statId": "closeCalls",
+						"basic": {
+							"value": 111.0,
+							"displayValue": "111"
+						},
+						"pga": {
+							"value": 0.3041095890410959,
+							"displayValue": "0.3"
+						}
+					},
+					"dominationKills": {
+						"statId": "dominationKills",
+						"basic": {
+							"value": 19.0,
+							"displayValue": "19"
+						},
+						"pga": {
+							"value": 0.052054794520547946,
+							"displayValue": "0.1"
+						}
+					},
+					"killsDeathsRatio": {
+						"statId": "killsDeathsRatio",
+						"basic": {
+							"value": 0.7280639849447189,
+							"displayValue": "0.73"
+						}
+					},
+					"killsDeathsAssists": {
+						"statId": "killsDeathsAssists",
+						"basic": {
+							"value": 0.8987297106563161,
+							"displayValue": "0.90"
+						}
+					},
+					"objectivesCompleted": {
+						"statId": "objectivesCompleted",
+						"basic": {
+							"value": 681.0,
+							"displayValue": "681"
+						},
+						"pga": {
+							"value": 1.8657534246575342,
+							"displayValue": "1.9"
+						}
+					},
+					"precisionKills": {
+						"statId": "precisionKills",
+						"basic": {
+							"value": 668.0,
+							"displayValue": "668"
+						},
+						"pga": {
+							"value": 1.83013698630137,
+							"displayValue": "1.8"
+						}
+					},
+					"resurrectionsPerformed": {
+						"statId": "resurrectionsPerformed",
+						"basic": {
+							"value": 72.0,
+							"displayValue": "72"
+						},
+						"pga": {
+							"value": 0.19726027397260273,
+							"displayValue": "0.2"
+						}
+					},
+					"resurrectionsReceived": {
+						"statId": "resurrectionsReceived",
+						"basic": {
+							"value": 86.0,
+							"displayValue": "86"
+						},
+						"pga": {
+							"value": 0.2356164383561644,
+							"displayValue": "0.2"
+						}
+					},
+					"suicides": {
+						"statId": "suicides",
+						"basic": {
+							"value": 28.0,
+							"displayValue": "28"
+						},
+						"pga": {
+							"value": 0.07671232876712329,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsAutoRifle": {
+						"statId": "weaponKillsAutoRifle",
+						"basic": {
+							"value": 105.0,
+							"displayValue": "105"
+						},
+						"pga": {
+							"value": 0.2876712328767123,
+							"displayValue": "0.3"
+						}
+					},
+					"weaponKillsFusionRifle": {
+						"statId": "weaponKillsFusionRifle",
+						"basic": {
+							"value": 143.0,
+							"displayValue": "143"
+						},
+						"pga": {
+							"value": 0.3917808219178082,
+							"displayValue": "0.4"
+						}
+					},
+					"weaponKillsHandCannon": {
+						"statId": "weaponKillsHandCannon",
+						"basic": {
+							"value": 126.0,
+							"displayValue": "126"
+						},
+						"pga": {
+							"value": 0.3452054794520548,
+							"displayValue": "0.3"
+						}
+					},
+					"weaponKillsMachinegun": {
+						"statId": "weaponKillsMachinegun",
+						"basic": {
+							"value": 190.0,
+							"displayValue": "190"
+						},
+						"pga": {
+							"value": 0.5205479452054794,
+							"displayValue": "0.5"
+						}
+					},
+					"weaponKillsPulseRifle": {
+						"statId": "weaponKillsPulseRifle",
+						"basic": {
+							"value": 530.0,
+							"displayValue": "530"
+						},
+						"pga": {
+							"value": 1.452054794520548,
+							"displayValue": "1.5"
+						}
+					},
+					"weaponKillsRocketLauncher": {
+						"statId": "weaponKillsRocketLauncher",
+						"basic": {
+							"value": 66.0,
+							"displayValue": "66"
+						},
+						"pga": {
+							"value": 0.18082191780821918,
+							"displayValue": "0.2"
+						}
+					},
+					"weaponKillsScoutRifle": {
+						"statId": "weaponKillsScoutRifle",
+						"basic": {
+							"value": 72.0,
+							"displayValue": "72"
+						},
+						"pga": {
+							"value": 0.19726027397260273,
+							"displayValue": "0.2"
+						}
+					},
+					"weaponKillsShotgun": {
+						"statId": "weaponKillsShotgun",
+						"basic": {
+							"value": 610.0,
+							"displayValue": "610"
+						},
+						"pga": {
+							"value": 1.6712328767123288,
+							"displayValue": "1.7"
+						}
+					},
+					"weaponKillsSniper": {
+						"statId": "weaponKillsSniper",
+						"basic": {
+							"value": 15.0,
+							"displayValue": "15"
+						},
+						"pga": {
+							"value": 0.0410958904109589,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsSubmachinegun": {
+						"statId": "weaponKillsSubmachinegun",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0"
+						},
+						"pga": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsRelic": {
+						"statId": "weaponKillsRelic",
+						"basic": {
+							"value": 20.0,
+							"displayValue": "20"
+						},
+						"pga": {
+							"value": 0.0547945205479452,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsSideArm": {
+						"statId": "weaponKillsSideArm",
+						"basic": {
+							"value": 2.0,
+							"displayValue": "2"
+						},
+						"pga": {
+							"value": 0.005479452054794521,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsSword": {
+						"statId": "weaponKillsSword",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0"
+						},
+						"pga": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponBestType": {
+						"statId": "weaponBestType",
+						"basic": {
+							"value": 5.0,
+							"displayValue": "Shotgun"
+						}
+					},
+					"winLossRatio": {
+						"statId": "winLossRatio",
+						"basic": {
+							"value": 0.8159203980099502,
+							"displayValue": "0.82"
+						}
+					},
+					"allParticipantsCount": {
+						"statId": "allParticipantsCount",
+						"basic": {
+							"value": 4165.0,
+							"displayValue": "4165"
+						}
+					},
+					"allParticipantsScore": {
+						"statId": "allParticipantsScore",
+						"basic": {
+							"value": 9276510.0,
+							"displayValue": "9,276,510"
+						}
+					},
+					"allParticipantsTimePlayed": {
+						"statId": "allParticipantsTimePlayed",
+						"basic": {
+							"value": 2380878.0,
+							"displayValue": "27d 13h"
+						}
+					},
+					"defensiveKills": {
+						"statId": "defensiveKills",
+						"basic": {
+							"value": 137.0,
+							"displayValue": "137"
+						}
+					},
+					"longestKillSpree": {
+						"statId": "longestKillSpree",
+						"basic": {
+							"value": 9.0,
+							"displayValue": "9"
+						}
+					},
+					"longestSingleLife": {
+						"statId": "longestSingleLife",
+						"basic": {
+							"value": 367.0,
+							"displayValue": "6m 7s"
+						}
+					},
+					"mostPrecisionKills": {
+						"statId": "mostPrecisionKills",
+						"basic": {
+							"value": 10.0,
+							"displayValue": "10"
+						}
+					},
+					"offensiveKills": {
+						"statId": "offensiveKills",
+						"basic": {
+							"value": 118.0,
+							"displayValue": "118"
+						},
+						"pga": {
+							"value": 0.3232876712328767,
+							"displayValue": "0.3"
+						}
+					},
+					"orbsDropped": {
+						"statId": "orbsDropped",
+						"basic": {
+							"value": 620.0,
+							"displayValue": "620"
+						},
+						"pga": {
+							"value": 1.6986301369863013,
+							"displayValue": "1.7"
+						}
+					},
+					"orbsGathered": {
+						"statId": "orbsGathered",
+						"basic": {
+							"value": 610.0,
+							"displayValue": "610"
+						},
+						"pga": {
+							"value": 1.6712328767123288,
+							"displayValue": "1.7"
+						}
+					},
+					"relicsCaptured": {
+						"statId": "relicsCaptured",
+						"basic": {
+							"value": 21.0,
+							"displayValue": "21"
+						},
+						"pga": {
+							"value": 0.057534246575342465,
+							"displayValue": "0.1"
+						}
+					},
+					"remainingTimeAfterQuitSeconds": {
+						"statId": "remainingTimeAfterQuitSeconds",
+						"basic": {
+							"value": 2211.0,
+							"displayValue": "36m 51s"
+						},
+						"pga": {
+							"value": 6.057534246575343,
+							"displayValue": "0m 6s"
+						}
+					},
+					"teamScore": {
+						"statId": "teamScore",
+						"basic": {
+							"value": 4542424.0,
+							"displayValue": "4,542,424"
+						},
+						"pga": {
+							"value": 12444.997260273973,
+							"displayValue": "12,445"
+						}
+					},
+					"totalActivityDurationSeconds": {
+						"statId": "totalActivityDurationSeconds",
+						"basic": {
+							"value": 221969.0,
+							"displayValue": "2d 13h"
+						},
+						"pga": {
+							"value": 608.1342465753424,
+							"displayValue": "10m 8s"
+						}
+					},
+					"zonesCaptured": {
+						"statId": "zonesCaptured",
+						"basic": {
+							"value": 684.0,
+							"displayValue": "684"
+						},
+						"pga": {
+							"value": 1.873972602739726,
+							"displayValue": "1.9"
+						}
+					},
+					"zonesNeutralized": {
+						"statId": "zonesNeutralized",
+						"basic": {
+							"value": 432.0,
+							"displayValue": "432"
+						},
+						"pga": {
+							"value": 1.1835616438356165,
+							"displayValue": "1.2"
+						}
+					},
+					"combatRating": {
+						"statId": "combatRating",
+						"basic": {
+							"value": 72.8050127629863,
+							"displayValue": "72.81"
+						}
+					},
+					"longestKillDistance": {
+						"statId": "longestKillDistance",
+						"basic": {
+							"value": 83.0,
+							"displayValue": "83.0"
+						}
+					},
+					"highestCharacterLevel": {
+						"statId": "highestCharacterLevel",
+						"basic": {
+							"value": 40.0,
+							"displayValue": "40"
+						}
+					},
+					"highestLightLevel": {
+						"statId": "highestLightLevel",
+						"basic": {
+							"value": 31.0,
+							"displayValue": "31"
+						}
+					}
+				}
+			}
+		},
+		"merged": {
+			"allTime": {
+				"activitiesCleared": {
+					"statId": "activitiesCleared",
+					"basic": {
+						"value": 229.0,
+						"displayValue": "229"
+					}
+				},
+				"weaponKillsSuper": {
+					"statId": "weaponKillsSuper",
+					"basic": {
+						"value": 1232.0,
+						"displayValue": "1232"
+					},
+					"pga": {
+						"value": 1.76,
+						"displayValue": "1.8"
+					}
+				},
+				"activitiesEntered": {
+					"statId": "activitiesEntered",
+					"basic": {
+						"value": 700.0,
+						"displayValue": "700"
+					}
+				},
+				"weaponKillsMelee": {
+					"statId": "weaponKillsMelee",
+					"basic": {
+						"value": 4459.0,
+						"displayValue": "4459"
+					},
+					"pga": {
+						"value": 6.37,
+						"displayValue": "6.4"
+					}
+				},
+				"weaponKillsGrenade": {
+					"statId": "weaponKillsGrenade",
+					"basic": {
+						"value": 2726.0,
+						"displayValue": "2726"
+					},
+					"pga": {
+						"value": 3.894285714285714,
+						"displayValue": "3.9"
+					}
+				},
+				"abilityKills": {
+					"statId": "abilityKills",
+					"basic": {
+						"value": 8417.0,
+						"displayValue": "8417"
+					},
+					"pga": {
+						"value": 12.024285714285714,
+						"displayValue": "12.0"
+					}
+				},
+				"assists": {
+					"statId": "assists",
+					"basic": {
+						"value": 8709.0,
+						"displayValue": "8709"
+					},
+					"pga": {
+						"value": 12.441428571428572,
+						"displayValue": "12.4"
+					}
+				},
+				"totalDeathDistance": {
+					"statId": "totalDeathDistance",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"averageDeathDistance": {
+					"statId": "averageDeathDistance",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"totalKillDistance": {
+					"statId": "totalKillDistance",
+					"basic": {
+						"value": 566944.0,
+						"displayValue": "566944.0"
+					}
+				},
+				"kills": {
+					"statId": "kills",
+					"basic": {
+						"value": 32398.0,
+						"displayValue": "32398"
+					},
+					"pga": {
+						"value": 46.28285714285714,
+						"displayValue": "46.3"
+					}
+				},
+				"averageKillDistance": {
+					"statId": "averageKillDistance",
+					"basic": {
+						"value": 17.49935181184024,
+						"displayValue": "17.5"
+					}
+				},
+				"secondsPlayed": {
+					"statId": "secondsPlayed",
+					"basic": {
+						"value": 741839.0,
+						"displayValue": "8d 14h"
+					},
+					"pga": {
+						"value": 1059.77,
+						"displayValue": "17m 39s"
+					}
+				},
+				"deaths": {
+					"statId": "deaths",
+					"basic": {
+						"value": 5713.0,
+						"displayValue": "5713"
+					},
+					"pga": {
+						"value": 8.161428571428571,
+						"displayValue": "8.2"
+					}
+				},
+				"averageLifespan": {
+					"statId": "averageLifespan",
+					"basic": {
+						"value": 129.82831641582078,
+						"displayValue": "2m 9s"
+					}
+				},
+				"bestSingleGameKills": {
+					"statId": "bestSingleGameKills",
+					"basic": {
+						"value": 943.0,
+						"displayValue": "943"
+					}
+				},
+				"killsDeathsRatio": {
+					"statId": "killsDeathsRatio",
+					"basic": {
+						"value": 5.670925958340627,
+						"displayValue": "5.67"
+					}
+				},
+				"killsDeathsAssists": {
+					"statId": "killsDeathsAssists",
+					"basic": {
+						"value": 6.433134955364957,
+						"displayValue": "6.43"
+					}
+				},
+				"objectivesCompleted": {
+					"statId": "objectivesCompleted",
+					"basic": {
+						"value": 806.0,
+						"displayValue": "806"
+					},
+					"pga": {
+						"value": 1.1514285714285715,
+						"displayValue": "1.2"
+					}
+				},
+				"precisionKills": {
+					"statId": "precisionKills",
+					"basic": {
+						"value": 9668.0,
+						"displayValue": "9668"
+					},
+					"pga": {
+						"value": 13.811428571428571,
+						"displayValue": "13.8"
+					}
+				},
+				"resurrectionsPerformed": {
+					"statId": "resurrectionsPerformed",
+					"basic": {
+						"value": 559.0,
+						"displayValue": "559"
+					},
+					"pga": {
+						"value": 0.7985714285714286,
+						"displayValue": "0.8"
+					}
+				},
+				"resurrectionsReceived": {
+					"statId": "resurrectionsReceived",
+					"basic": {
+						"value": 624.0,
+						"displayValue": "624"
+					},
+					"pga": {
+						"value": 0.8914285714285715,
+						"displayValue": "0.9"
+					}
+				},
+				"suicides": {
+					"statId": "suicides",
+					"basic": {
+						"value": 242.0,
+						"displayValue": "242"
+					},
+					"pga": {
+						"value": 0.3457142857142857,
+						"displayValue": "0.3"
+					}
+				},
+				"weaponKillsAutoRifle": {
+					"statId": "weaponKillsAutoRifle",
+					"basic": {
+						"value": 2485.0,
+						"displayValue": "2485"
+					},
+					"pga": {
+						"value": 3.55,
+						"displayValue": "3.6"
+					}
+				},
+				"weaponKillsFusionRifle": {
+					"statId": "weaponKillsFusionRifle",
+					"basic": {
+						"value": 1806.0,
+						"displayValue": "1806"
+					},
+					"pga": {
+						"value": 2.58,
+						"displayValue": "2.6"
+					}
+				},
+				"weaponKillsHandCannon": {
+					"statId": "weaponKillsHandCannon",
+					"basic": {
+						"value": 3895.0,
+						"displayValue": "3895"
+					},
+					"pga": {
+						"value": 5.564285714285714,
+						"displayValue": "5.6"
+					}
+				},
+				"weaponKillsMachinegun": {
+					"statId": "weaponKillsMachinegun",
+					"basic": {
+						"value": 845.0,
+						"displayValue": "845"
+					},
+					"pga": {
+						"value": 1.207142857142857,
+						"displayValue": "1.2"
+					}
+				},
+				"weaponKillsPulseRifle": {
+					"statId": "weaponKillsPulseRifle",
+					"basic": {
+						"value": 3914.0,
+						"displayValue": "3914"
+					},
+					"pga": {
+						"value": 5.591428571428572,
+						"displayValue": "5.6"
+					}
+				},
+				"weaponKillsRocketLauncher": {
+					"statId": "weaponKillsRocketLauncher",
+					"basic": {
+						"value": 286.0,
+						"displayValue": "286"
+					},
+					"pga": {
+						"value": 0.4085714285714286,
+						"displayValue": "0.4"
+					}
+				},
+				"weaponKillsScoutRifle": {
+					"statId": "weaponKillsScoutRifle",
+					"basic": {
+						"value": 5761.0,
+						"displayValue": "5761"
+					},
+					"pga": {
+						"value": 8.23,
+						"displayValue": "8.2"
+					}
+				},
+				"weaponKillsShotgun": {
+					"statId": "weaponKillsShotgun",
+					"basic": {
+						"value": 1920.0,
+						"displayValue": "1920"
+					},
+					"pga": {
+						"value": 2.742857142857143,
+						"displayValue": "2.7"
+					}
+				},
+				"weaponKillsSniper": {
+					"statId": "weaponKillsSniper",
+					"basic": {
+						"value": 689.0,
+						"displayValue": "689"
+					},
+					"pga": {
+						"value": 0.9842857142857143,
+						"displayValue": "1.0"
+					}
+				},
+				"weaponKillsSubmachinegun": {
+					"statId": "weaponKillsSubmachinegun",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0"
+					},
+					"pga": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"weaponKillsRelic": {
+					"statId": "weaponKillsRelic",
+					"basic": {
+						"value": 823.0,
+						"displayValue": "823"
+					},
+					"pga": {
+						"value": 1.1757142857142857,
+						"displayValue": "1.2"
+					}
+				},
+				"weaponKillsSideArm": {
+					"statId": "weaponKillsSideArm",
+					"basic": {
+						"value": 366.0,
+						"displayValue": "366"
+					},
+					"pga": {
+						"value": 0.5228571428571429,
+						"displayValue": "0.5"
+					}
+				},
+				"weaponKillsSword": {
+					"statId": "weaponKillsSword",
+					"basic": {
+						"value": 117.0,
+						"displayValue": "117"
+					},
+					"pga": {
+						"value": 0.16714285714285715,
+						"displayValue": "0.2"
+					}
+				},
+				"weaponBestType": {
+					"statId": "weaponBestType",
+					"basic": {
+						"value": 3.0,
+						"displayValue": "Scout Rifle"
+					}
+				},
+				"allParticipantsCount": {
+					"statId": "allParticipantsCount",
+					"basic": {
+						"value": 6044.0,
+						"displayValue": "6044"
+					}
+				},
+				"allParticipantsTimePlayed": {
+					"statId": "allParticipantsTimePlayed",
+					"basic": {
+						"value": 6297314.0,
+						"displayValue": "72d 21h"
+					}
+				},
+				"longestKillSpree": {
+					"statId": "longestKillSpree",
+					"basic": {
+						"value": 211.0,
+						"displayValue": "211"
+					}
+				},
+				"longestSingleLife": {
+					"statId": "longestSingleLife",
+					"basic": {
+						"value": 5966.0,
+						"displayValue": "1h 39m"
+					}
+				},
+				"mostPrecisionKills": {
+					"statId": "mostPrecisionKills",
+					"basic": {
+						"value": 222.0,
+						"displayValue": "222"
+					}
+				},
+				"orbsDropped": {
+					"statId": "orbsDropped",
+					"basic": {
+						"value": 5062.0,
+						"displayValue": "5062"
+					},
+					"pga": {
+						"value": 7.231428571428571,
+						"displayValue": "7.2"
+					}
+				},
+				"orbsGathered": {
+					"statId": "orbsGathered",
+					"basic": {
+						"value": 4188.0,
+						"displayValue": "4188"
+					},
+					"pga": {
+						"value": 5.982857142857143,
+						"displayValue": "6.0"
+					}
+				},
+				"publicEventsCompleted": {
+					"statId": "publicEventsCompleted",
+					"basic": {
+						"value": 45.0,
+						"displayValue": "45"
+					},
+					"pga": {
+						"value": 0.06428571428571428,
+						"displayValue": "0.1"
+					}
+				},
+				"publicEventsJoined": {
+					"statId": "publicEventsJoined",
+					"basic": {
+						"value": 45.0,
+						"displayValue": "45"
+					},
+					"pga": {
+						"value": 0.06428571428571428,
+						"displayValue": "0.1"
+					}
+				},
+				"remainingTimeAfterQuitSeconds": {
+					"statId": "remainingTimeAfterQuitSeconds",
+					"basic": {
+						"value": 14947.0,
+						"displayValue": "4h 9m"
+					},
+					"pga": {
+						"value": 21.352857142857143,
+						"displayValue": "0m 21s"
+					}
+				},
+				"totalActivityDurationSeconds": {
+					"statId": "totalActivityDurationSeconds",
+					"basic": {
+						"value": 799798.0,
+						"displayValue": "9d 6h"
+					},
+					"pga": {
+						"value": 1142.5685714285714,
+						"displayValue": "19m 2s"
+					}
+				},
+				"fastestCompletion": {
+					"statId": "fastestCompletion",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0m 0s"
+					}
+				},
+				"courtOfOryxWinsTier1": {
+					"statId": "courtOfOryxWinsTier1",
+					"basic": {
+						"value": 6.0,
+						"displayValue": "6"
+					}
+				},
+				"courtOfOryxWinsTier2": {
+					"statId": "courtOfOryxWinsTier2",
+					"basic": {
+						"value": 2.0,
+						"displayValue": "2"
+					}
+				},
+				"courtOfOryxWinsTier3": {
+					"statId": "courtOfOryxWinsTier3",
+					"basic": {
+						"value": 1.0,
+						"displayValue": "1"
+					}
+				},
+				"courtOfOryxAttempts": {
+					"statId": "courtOfOryxAttempts",
+					"basic": {
+						"value": 5.0,
+						"displayValue": "5"
+					}
+				},
+				"courtOfOryxCompletions": {
+					"statId": "courtOfOryxCompletions",
+					"basic": {
+						"value": 9.0,
+						"displayValue": "9"
+					}
+				},
+				"longestKillDistance": {
+					"statId": "longestKillDistance",
+					"basic": {
+						"value": 1005.0,
+						"displayValue": "1005.0"
+					}
+				},
+				"highestCharacterLevel": {
+					"statId": "highestCharacterLevel",
+					"basic": {
+						"value": 40.0,
+						"displayValue": "40"
+					}
+				},
+				"highestLightLevel": {
+					"statId": "highestLightLevel",
+					"basic": {
+						"value": 31.0,
+						"displayValue": "31"
+					}
+				},
+				"activitiesWon": {
+					"statId": "activitiesWon",
+					"basic": {
+						"value": 164.0,
+						"displayValue": "164"
+					}
+				},
+				"score": {
+					"statId": "score",
+					"basic": {
+						"value": 608494.0,
+						"displayValue": "608,494"
+					},
+					"pga": {
+						"value": 869.2771428571428,
+						"displayValue": "869"
+					}
+				},
+				"averageScorePerKill": {
+					"statId": "averageScorePerKill",
+					"basic": {
+						"value": 18.7818383850855,
+						"displayValue": "19"
+					}
+				},
+				"averageScorePerLife": {
+					"statId": "averageScorePerLife",
+					"basic": {
+						"value": 106.49177458872944,
+						"displayValue": "106"
+					}
+				},
+				"bestSingleGameScore": {
+					"statId": "bestSingleGameScore",
+					"basic": {
+						"value": 6570.0,
+						"displayValue": "6,570"
+					}
+				},
+				"closeCalls": {
+					"statId": "closeCalls",
+					"basic": {
+						"value": 111.0,
+						"displayValue": "111"
+					},
+					"pga": {
+						"value": 0.15857142857142856,
+						"displayValue": "0.2"
+					}
+				},
+				"dominationKills": {
+					"statId": "dominationKills",
+					"basic": {
+						"value": 19.0,
+						"displayValue": "19"
+					},
+					"pga": {
+						"value": 0.027142857142857142,
+						"displayValue": "0.0"
+					}
+				},
+				"winLossRatio": {
+					"statId": "winLossRatio",
+					"basic": {
+						"value": 0.30597014925373134,
+						"displayValue": "0.31"
+					}
+				},
+				"allParticipantsScore": {
+					"statId": "allParticipantsScore",
+					"basic": {
+						"value": 9276510.0,
+						"displayValue": "9,276,510"
+					}
+				},
+				"defensiveKills": {
+					"statId": "defensiveKills",
+					"basic": {
+						"value": 137.0,
+						"displayValue": "137"
+					}
+				},
+				"offensiveKills": {
+					"statId": "offensiveKills",
+					"basic": {
+						"value": 118.0,
+						"displayValue": "118"
+					},
+					"pga": {
+						"value": 0.16857142857142857,
+						"displayValue": "0.2"
+					}
+				},
+				"relicsCaptured": {
+					"statId": "relicsCaptured",
+					"basic": {
+						"value": 21.0,
+						"displayValue": "21"
+					},
+					"pga": {
+						"value": 0.03,
+						"displayValue": "0.0"
+					}
+				},
+				"teamScore": {
+					"statId": "teamScore",
+					"basic": {
+						"value": 4542424.0,
+						"displayValue": "4,542,424"
+					},
+					"pga": {
+						"value": 6489.177142857143,
+						"displayValue": "6,489"
+					}
+				},
+				"zonesCaptured": {
+					"statId": "zonesCaptured",
+					"basic": {
+						"value": 684.0,
+						"displayValue": "684"
+					},
+					"pga": {
+						"value": 0.9771428571428571,
+						"displayValue": "1.0"
+					}
+				},
+				"zonesNeutralized": {
+					"statId": "zonesNeutralized",
+					"basic": {
+						"value": 432.0,
+						"displayValue": "432"
+					},
+					"pga": {
+						"value": 0.6171428571428571,
+						"displayValue": "0.6"
+					}
+				},
+				"combatRating": {
+					"statId": "combatRating",
+					"basic": {
+						"value": 54.582565263107284,
+						"displayValue": "54.58"
+					}
+				}
+			}
+		}
+	},
+	"mergedAllCharacters": {
+		"results": {
+			"allPvE": {
+				"allTime": {
+					"activitiesCleared": {
+						"statId": "activitiesCleared",
+						"basic": {
+							"value": 936.0,
+							"displayValue": "936"
+						}
+					},
+					"weaponKillsSuper": {
+						"statId": "weaponKillsSuper",
+						"basic": {
+							"value": 8513.0,
+							"displayValue": "8513"
+						},
+						"pga": {
+							"value": 6.227505486466716,
+							"displayValue": "6.2"
+						}
+					},
+					"activitiesEntered": {
+						"statId": "activitiesEntered",
+						"basic": {
+							"value": 1367.0,
+							"displayValue": "1367"
+						}
+					},
+					"weaponKillsMelee": {
+						"statId": "weaponKillsMelee",
+						"basic": {
+							"value": 19189.0,
+							"displayValue": "19189"
+						},
+						"pga": {
+							"value": 14.03730797366496,
+							"displayValue": "14.0"
+						}
+					},
+					"weaponKillsGrenade": {
+						"statId": "weaponKillsGrenade",
+						"basic": {
+							"value": 15520.0,
+							"displayValue": "15520"
+						},
+						"pga": {
+							"value": 11.353328456474031,
+							"displayValue": "11.4"
+						}
+					},
+					"abilityKills": {
+						"statId": "abilityKills",
+						"basic": {
+							"value": 43222.0,
+							"displayValue": "43222"
+						},
+						"pga": {
+							"value": 31.618141916605705,
+							"displayValue": "31.6"
+						}
+					},
+					"assists": {
+						"statId": "assists",
+						"basic": {
+							"value": 32525.0,
+							"displayValue": "32525"
+						},
+						"pga": {
+							"value": 23.792977322604244,
+							"displayValue": "23.8"
+						}
+					},
+					"totalDeathDistance": {
+						"statId": "totalDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"averageDeathDistance": {
+						"statId": "averageDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"totalKillDistance": {
+						"statId": "totalKillDistance",
+						"basic": {
+							"value": 2165635.0,
+							"displayValue": "2165635.0"
+						}
+					},
+					"kills": {
+						"statId": "kills",
+						"basic": {
+							"value": 132090.0,
+							"displayValue": "132090"
+						},
+						"pga": {
+							"value": 96.6276517922458,
+							"displayValue": "96.6"
+						}
+					},
+					"averageKillDistance": {
+						"statId": "averageKillDistance",
+						"basic": {
+							"value": 16.395147248088424,
+							"displayValue": "16.4"
+						}
+					},
+					"secondsPlayed": {
+						"statId": "secondsPlayed",
+						"basic": {
+							"value": 2188542.0,
+							"displayValue": "25d 7h"
+						},
+						"pga": {
+							"value": 1600.9817117776151,
+							"displayValue": "26m 40s"
+						}
+					},
+					"deaths": {
+						"statId": "deaths",
+						"basic": {
+							"value": 7300.0,
+							"displayValue": "7300"
+						},
+						"pga": {
+							"value": 5.340160936356986,
+							"displayValue": "5.3"
+						}
+					},
+					"averageLifespan": {
+						"statId": "averageLifespan",
+						"basic": {
+							"value": 299.7592110669771,
+							"displayValue": "4m 59s"
+						}
+					},
+					"bestSingleGameKills": {
+						"statId": "bestSingleGameKills",
+						"basic": {
+							"value": 944.0,
+							"displayValue": "944"
+						}
+					},
+					"killsDeathsRatio": {
+						"statId": "killsDeathsRatio",
+						"basic": {
+							"value": 18.094520547945205,
+							"displayValue": "18.09"
+						}
+					},
+					"killsDeathsAssists": {
+						"statId": "killsDeathsAssists",
+						"basic": {
+							"value": 20.322260273972603,
+							"displayValue": "20.32"
+						}
+					},
+					"objectivesCompleted": {
+						"statId": "objectivesCompleted",
+						"basic": {
+							"value": 456.0,
+							"displayValue": "456"
+						},
+						"pga": {
+							"value": 0.3335771762984638,
+							"displayValue": "0.3"
+						}
+					},
+					"precisionKills": {
+						"statId": "precisionKills",
+						"basic": {
+							"value": 34494.0,
+							"displayValue": "34494"
+						},
+						"pga": {
+							"value": 25.233357717629847,
+							"displayValue": "25.2"
+						}
+					},
+					"resurrectionsPerformed": {
+						"statId": "resurrectionsPerformed",
+						"basic": {
+							"value": 2522.0,
+							"displayValue": "2522"
+						},
+						"pga": {
+							"value": 1.84491587417703,
+							"displayValue": "1.8"
+						}
+					},
+					"resurrectionsReceived": {
+						"statId": "resurrectionsReceived",
+						"basic": {
+							"value": 2417.0,
+							"displayValue": "2417"
+						},
+						"pga": {
+							"value": 1.7681053401609363,
+							"displayValue": "1.8"
+						}
+					},
+					"suicides": {
+						"statId": "suicides",
+						"basic": {
+							"value": 1527.0,
+							"displayValue": "1527"
+						},
+						"pga": {
+							"value": 1.1170446232626188,
+							"displayValue": "1.1"
+						}
+					},
+					"weaponKillsAutoRifle": {
+						"statId": "weaponKillsAutoRifle",
+						"basic": {
+							"value": 13613.0,
+							"displayValue": "13613"
+						},
+						"pga": {
+							"value": 9.958302852962692,
+							"displayValue": "10.0"
+						}
+					},
+					"weaponKillsFusionRifle": {
+						"statId": "weaponKillsFusionRifle",
+						"basic": {
+							"value": 3771.0,
+							"displayValue": "3771"
+						},
+						"pga": {
+							"value": 2.7585954645208486,
+							"displayValue": "2.8"
+						}
+					},
+					"weaponKillsHandCannon": {
+						"statId": "weaponKillsHandCannon",
+						"basic": {
+							"value": 12044.0,
+							"displayValue": "12044"
+						},
+						"pga": {
+							"value": 8.810534016093635,
+							"displayValue": "8.8"
+						}
+					},
+					"weaponKillsMachinegun": {
+						"statId": "weaponKillsMachinegun",
+						"basic": {
+							"value": 2389.0,
+							"displayValue": "2389"
+						},
+						"pga": {
+							"value": 1.747622531089978,
+							"displayValue": "1.7"
+						}
+					},
+					"weaponKillsPulseRifle": {
+						"statId": "weaponKillsPulseRifle",
+						"basic": {
+							"value": 21781.0,
+							"displayValue": "21781"
+						},
+						"pga": {
+							"value": 15.933430870519386,
+							"displayValue": "15.9"
+						}
+					},
+					"weaponKillsRocketLauncher": {
+						"statId": "weaponKillsRocketLauncher",
+						"basic": {
+							"value": 1551.0,
+							"displayValue": "1551"
+						},
+						"pga": {
+							"value": 1.1346013167520117,
+							"displayValue": "1.1"
+						}
+					},
+					"weaponKillsScoutRifle": {
+						"statId": "weaponKillsScoutRifle",
+						"basic": {
+							"value": 16121.0,
+							"displayValue": "16121"
+						},
+						"pga": {
+							"value": 11.792977322604242,
+							"displayValue": "11.8"
+						}
+					},
+					"weaponKillsShotgun": {
+						"statId": "weaponKillsShotgun",
+						"basic": {
+							"value": 5535.0,
+							"displayValue": "5535"
+						},
+						"pga": {
+							"value": 4.049012435991222,
+							"displayValue": "4.0"
+						}
+					},
+					"weaponKillsSniper": {
+						"statId": "weaponKillsSniper",
+						"basic": {
+							"value": 2114.0,
+							"displayValue": "2114"
+						},
+						"pga": {
+							"value": 1.546452084857352,
+							"displayValue": "1.5"
+						}
+					},
+					"weaponKillsSubmachinegun": {
+						"statId": "weaponKillsSubmachinegun",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0"
+						},
+						"pga": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsRelic": {
+						"statId": "weaponKillsRelic",
+						"basic": {
+							"value": 1650.0,
+							"displayValue": "1650"
+						},
+						"pga": {
+							"value": 1.207022677395757,
+							"displayValue": "1.2"
+						}
+					},
+					"weaponKillsSideArm": {
+						"statId": "weaponKillsSideArm",
+						"basic": {
+							"value": 1417.0,
+							"displayValue": "1417"
+						},
+						"pga": {
+							"value": 1.0365764447695685,
+							"displayValue": "1.0"
+						}
+					},
+					"weaponKillsSword": {
+						"statId": "weaponKillsSword",
+						"basic": {
+							"value": 1433.0,
+							"displayValue": "1433"
+						},
+						"pga": {
+							"value": 1.0482809070958303,
+							"displayValue": "1.0"
+						}
+					},
+					"weaponBestType": {
+						"statId": "weaponBestType",
+						"basic": {
+							"value": 2.0,
+							"displayValue": "Pulse Rifle"
+						}
+					},
+					"allParticipantsCount": {
+						"statId": "allParticipantsCount",
+						"basic": {
+							"value": 7496.0,
+							"displayValue": "7496"
+						}
+					},
+					"allParticipantsTimePlayed": {
+						"statId": "allParticipantsTimePlayed",
+						"basic": {
+							"value": 1.6205634E7,
+							"displayValue": "187d 13h"
+						}
+					},
+					"longestKillSpree": {
+						"statId": "longestKillSpree",
+						"basic": {
+							"value": 308.0,
+							"displayValue": "308"
+						}
+					},
+					"longestSingleLife": {
+						"statId": "longestSingleLife",
+						"basic": {
+							"value": 13456.0,
+							"displayValue": "3h 44m"
+						}
+					},
+					"mostPrecisionKills": {
+						"statId": "mostPrecisionKills",
+						"basic": {
+							"value": 298.0,
+							"displayValue": "298"
+						}
+					},
+					"orbsDropped": {
+						"statId": "orbsDropped",
+						"basic": {
+							"value": 15540.0,
+							"displayValue": "15540"
+						},
+						"pga": {
+							"value": 11.367959034381858,
+							"displayValue": "11.4"
+						}
+					},
+					"orbsGathered": {
+						"statId": "orbsGathered",
+						"basic": {
+							"value": 13518.0,
+							"displayValue": "13518"
+						},
+						"pga": {
+							"value": 9.888807607900512,
+							"displayValue": "9.9"
+						}
+					},
+					"publicEventsCompleted": {
+						"statId": "publicEventsCompleted",
+						"basic": {
+							"value": 743.0,
+							"displayValue": "743"
+						},
+						"pga": {
+							"value": 0.5435259692757864,
+							"displayValue": "0.5"
+						}
+					},
+					"publicEventsJoined": {
+						"statId": "publicEventsJoined",
+						"basic": {
+							"value": 759.0,
+							"displayValue": "759"
+						},
+						"pga": {
+							"value": 0.5552304316020483,
+							"displayValue": "0.6"
+						}
+					},
+					"remainingTimeAfterQuitSeconds": {
+						"statId": "remainingTimeAfterQuitSeconds",
+						"basic": {
+							"value": 107751.0,
+							"displayValue": "1d 5h"
+						},
+						"pga": {
+							"value": 78.82297000731529,
+							"displayValue": "1m 18s"
+						}
+					},
+					"totalActivityDurationSeconds": {
+						"statId": "totalActivityDurationSeconds",
+						"basic": {
+							"value": 2479975.0,
+							"displayValue": "28d 16h"
+						},
+						"pga": {
+							"value": 1814.1733723482077,
+							"displayValue": "30m 14s"
+						}
+					},
+					"fastestCompletion": {
+						"statId": "fastestCompletion",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0m 0s"
+						}
+					},
+					"courtOfOryxWinsTier1": {
+						"statId": "courtOfOryxWinsTier1",
+						"basic": {
+							"value": 211.0,
+							"displayValue": "211"
+						}
+					},
+					"courtOfOryxWinsTier2": {
+						"statId": "courtOfOryxWinsTier2",
+						"basic": {
+							"value": 72.0,
+							"displayValue": "72"
+						}
+					},
+					"courtOfOryxWinsTier3": {
+						"statId": "courtOfOryxWinsTier3",
+						"basic": {
+							"value": 73.0,
+							"displayValue": "73"
+						}
+					},
+					"courtOfOryxAttempts": {
+						"statId": "courtOfOryxAttempts",
+						"basic": {
+							"value": 131.0,
+							"displayValue": "131"
+						}
+					},
+					"courtOfOryxCompletions": {
+						"statId": "courtOfOryxCompletions",
+						"basic": {
+							"value": 356.0,
+							"displayValue": "356"
+						}
+					},
+					"longestKillDistance": {
+						"statId": "longestKillDistance",
+						"basic": {
+							"value": 1646.0,
+							"displayValue": "1646.0"
+						}
+					},
+					"highestCharacterLevel": {
+						"statId": "highestCharacterLevel",
+						"basic": {
+							"value": 40.0,
+							"displayValue": "40"
+						}
+					},
+					"highestLightLevel": {
+						"statId": "highestLightLevel",
+						"basic": {
+							"value": 400.0,
+							"displayValue": "400"
+						}
+					}
+				}
+			},
+			"allPvP": {
+				"allTime": {
+					"weaponKillsSuper": {
+						"statId": "weaponKillsSuper",
+						"basic": {
+							"value": 5502.0,
+							"displayValue": "5502"
+						},
+						"pga": {
+							"value": 1.4184068058778037,
+							"displayValue": "1.4"
+						}
+					},
+					"activitiesEntered": {
+						"statId": "activitiesEntered",
+						"basic": {
+							"value": 3879.0,
+							"displayValue": "3879"
+						}
+					},
+					"weaponKillsMelee": {
+						"statId": "weaponKillsMelee",
+						"basic": {
+							"value": 3010.0,
+							"displayValue": "3010"
+						},
+						"pga": {
+							"value": 0.7759731889662284,
+							"displayValue": "0.8"
+						}
+					},
+					"weaponKillsGrenade": {
+						"statId": "weaponKillsGrenade",
+						"basic": {
+							"value": 3202.0,
+							"displayValue": "3202"
+						},
+						"pga": {
+							"value": 0.8254704820830111,
+							"displayValue": "0.8"
+						}
+					},
+					"abilityKills": {
+						"statId": "abilityKills",
+						"basic": {
+							"value": 11714.0,
+							"displayValue": "11714"
+						},
+						"pga": {
+							"value": 3.019850476927043,
+							"displayValue": "3.0"
+						}
+					},
+					"activitiesWon": {
+						"statId": "activitiesWon",
+						"basic": {
+							"value": 1975.0,
+							"displayValue": "1975"
+						}
+					},
+					"assists": {
+						"statId": "assists",
+						"basic": {
+							"value": 14482.0,
+							"displayValue": "14482"
+						},
+						"pga": {
+							"value": 3.733436452693993,
+							"displayValue": "3.7"
+						}
+					},
+					"totalDeathDistance": {
+						"statId": "totalDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"averageDeathDistance": {
+						"statId": "averageDeathDistance",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"totalKillDistance": {
+						"statId": "totalKillDistance",
+						"basic": {
+							"value": 422323.0,
+							"displayValue": "422323.0"
+						}
+					},
+					"kills": {
+						"statId": "kills",
+						"basic": {
+							"value": 32547.0,
+							"displayValue": "32547"
+						},
+						"pga": {
+							"value": 8.390564578499614,
+							"displayValue": "8.4"
+						}
+					},
+					"averageKillDistance": {
+						"statId": "averageKillDistance",
+						"basic": {
+							"value": 12.97578885918825,
+							"displayValue": "13.0"
+						}
+					},
+					"secondsPlayed": {
+						"statId": "secondsPlayed",
+						"basic": {
+							"value": 2212873.0,
+							"displayValue": "25d 14h"
+						},
+						"pga": {
+							"value": 570.4751224542408,
+							"displayValue": "9m 30s"
+						}
+					},
+					"deaths": {
+						"statId": "deaths",
+						"basic": {
+							"value": 39202.0,
+							"displayValue": "39202"
+						},
+						"pga": {
+							"value": 10.106212941479763,
+							"displayValue": "10.1"
+						}
+					},
+					"averageLifespan": {
+						"statId": "averageLifespan",
+						"basic": {
+							"value": 56.446521949850776,
+							"displayValue": "0m 56s"
+						}
+					},
+					"score": {
+						"statId": "score",
+						"basic": {
+							"value": 5370680.0,
+							"displayValue": "5,370,680"
+						},
+						"pga": {
+							"value": 1384.5527197731374,
+							"displayValue": "1,385"
+						}
+					},
+					"averageScorePerKill": {
+						"statId": "averageScorePerKill",
+						"basic": {
+							"value": 165.0130580391434,
+							"displayValue": "165"
+						}
+					},
+					"averageScorePerLife": {
+						"statId": "averageScorePerLife",
+						"basic": {
+							"value": 136.99665841899855,
+							"displayValue": "137"
+						}
+					},
+					"bestSingleGameKills": {
+						"statId": "bestSingleGameKills",
+						"basic": {
+							"value": 30.0,
+							"displayValue": "30"
+						}
+					},
+					"bestSingleGameScore": {
+						"statId": "bestSingleGameScore",
+						"basic": {
+							"value": 22950.0,
+							"displayValue": "22,950"
+						}
+					},
+					"closeCalls": {
+						"statId": "closeCalls",
+						"basic": {
+							"value": 1606.0,
+							"displayValue": "1606"
+						},
+						"pga": {
+							"value": 0.4140242330497551,
+							"displayValue": "0.4"
+						}
+					},
+					"dominationKills": {
+						"statId": "dominationKills",
+						"basic": {
+							"value": 130.0,
+							"displayValue": "130"
+						},
+						"pga": {
+							"value": 0.03351379221448827,
+							"displayValue": "0.0"
+						}
+					},
+					"killsDeathsRatio": {
+						"statId": "killsDeathsRatio",
+						"basic": {
+							"value": 0.8302382531503495,
+							"displayValue": "0.83"
+						}
+					},
+					"killsDeathsAssists": {
+						"statId": "killsDeathsAssists",
+						"basic": {
+							"value": 1.0149482169277078,
+							"displayValue": "1.01"
+						}
+					},
+					"objectivesCompleted": {
+						"statId": "objectivesCompleted",
+						"basic": {
+							"value": 5785.0,
+							"displayValue": "5785"
+						},
+						"pga": {
+							"value": 1.491363753544728,
+							"displayValue": "1.5"
+						}
+					},
+					"precisionKills": {
+						"statId": "precisionKills",
+						"basic": {
+							"value": 5787.0,
+							"displayValue": "5787"
+						},
+						"pga": {
+							"value": 1.4918793503480279,
+							"displayValue": "1.5"
+						}
+					},
+					"resurrectionsPerformed": {
+						"statId": "resurrectionsPerformed",
+						"basic": {
+							"value": 1930.0,
+							"displayValue": "1930"
+						},
+						"pga": {
+							"value": 0.49755091518432587,
+							"displayValue": "0.5"
+						}
+					},
+					"resurrectionsReceived": {
+						"statId": "resurrectionsReceived",
+						"basic": {
+							"value": 2262.0,
+							"displayValue": "2262"
+						},
+						"pga": {
+							"value": 0.5831399845320959,
+							"displayValue": "0.6"
+						}
+					},
+					"suicides": {
+						"statId": "suicides",
+						"basic": {
+							"value": 224.0,
+							"displayValue": "224"
+						},
+						"pga": {
+							"value": 0.05774684196957979,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsAutoRifle": {
+						"statId": "weaponKillsAutoRifle",
+						"basic": {
+							"value": 401.0,
+							"displayValue": "401"
+						},
+						"pga": {
+							"value": 0.10337715906161382,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsFusionRifle": {
+						"statId": "weaponKillsFusionRifle",
+						"basic": {
+							"value": 415.0,
+							"displayValue": "415"
+						},
+						"pga": {
+							"value": 0.10698633668471255,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsHandCannon": {
+						"statId": "weaponKillsHandCannon",
+						"basic": {
+							"value": 544.0,
+							"displayValue": "544"
+						},
+						"pga": {
+							"value": 0.14024233049755092,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsMachinegun": {
+						"statId": "weaponKillsMachinegun",
+						"basic": {
+							"value": 1126.0,
+							"displayValue": "1126"
+						},
+						"pga": {
+							"value": 0.2902810002577984,
+							"displayValue": "0.3"
+						}
+					},
+					"weaponKillsPulseRifle": {
+						"statId": "weaponKillsPulseRifle",
+						"basic": {
+							"value": 6347.0,
+							"displayValue": "6347"
+						},
+						"pga": {
+							"value": 1.6362464552719773,
+							"displayValue": "1.6"
+						}
+					},
+					"weaponKillsRocketLauncher": {
+						"statId": "weaponKillsRocketLauncher",
+						"basic": {
+							"value": 765.0,
+							"displayValue": "765"
+						},
+						"pga": {
+							"value": 0.19721577726218098,
+							"displayValue": "0.2"
+						}
+					},
+					"weaponKillsScoutRifle": {
+						"statId": "weaponKillsScoutRifle",
+						"basic": {
+							"value": 716.0,
+							"displayValue": "716"
+						},
+						"pga": {
+							"value": 0.18458365558133538,
+							"displayValue": "0.2"
+						}
+					},
+					"weaponKillsShotgun": {
+						"statId": "weaponKillsShotgun",
+						"basic": {
+							"value": 6973.0,
+							"displayValue": "6973"
+						},
+						"pga": {
+							"value": 1.7976282547048208,
+							"displayValue": "1.8"
+						}
+					},
+					"weaponKillsSniper": {
+						"statId": "weaponKillsSniper",
+						"basic": {
+							"value": 205.0,
+							"displayValue": "205"
+						},
+						"pga": {
+							"value": 0.052848672338231505,
+							"displayValue": "0.1"
+						}
+					},
+					"weaponKillsSubmachinegun": {
+						"statId": "weaponKillsSubmachinegun",
+						"basic": {
+							"value": 0.0,
+							"displayValue": "0"
+						},
+						"pga": {
+							"value": 0.0,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsRelic": {
+						"statId": "weaponKillsRelic",
+						"basic": {
+							"value": 20.0,
+							"displayValue": "20"
+						},
+						"pga": {
+							"value": 0.005155968032998196,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponKillsSideArm": {
+						"statId": "weaponKillsSideArm",
+						"basic": {
+							"value": 851.0,
+							"displayValue": "851"
+						},
+						"pga": {
+							"value": 0.2193864398040732,
+							"displayValue": "0.2"
+						}
+					},
+					"weaponKillsSword": {
+						"statId": "weaponKillsSword",
+						"basic": {
+							"value": 75.0,
+							"displayValue": "75"
+						},
+						"pga": {
+							"value": 0.019334880123743233,
+							"displayValue": "0.0"
+						}
+					},
+					"weaponBestType": {
+						"statId": "weaponBestType",
+						"basic": {
+							"value": 5.0,
+							"displayValue": "Shotgun"
+						}
+					},
+					"winLossRatio": {
+						"statId": "winLossRatio",
+						"basic": {
+							"value": 1.0372899159663866,
+							"displayValue": "1.04"
+						}
+					},
+					"allParticipantsCount": {
+						"statId": "allParticipantsCount",
+						"basic": {
+							"value": 37268.0,
+							"displayValue": "37268"
+						}
+					},
+					"allParticipantsScore": {
+						"statId": "allParticipantsScore",
+						"basic": {
+							"value": 6.4918858E7,
+							"displayValue": "64,918,858"
+						}
+					},
+					"allParticipantsTimePlayed": {
+						"statId": "allParticipantsTimePlayed",
+						"basic": {
+							"value": 2.1090927E7,
+							"displayValue": "244d 2h"
+						}
+					},
+					"defensiveKills": {
+						"statId": "defensiveKills",
+						"basic": {
+							"value": 2628.0,
+							"displayValue": "2628"
+						}
+					},
+					"longestKillSpree": {
+						"statId": "longestKillSpree",
+						"basic": {
+							"value": 12.0,
+							"displayValue": "12"
+						}
+					},
+					"longestSingleLife": {
+						"statId": "longestSingleLife",
+						"basic": {
+							"value": 1677.0,
+							"displayValue": "27m 57s"
+						}
+					},
+					"mostPrecisionKills": {
+						"statId": "mostPrecisionKills",
+						"basic": {
+							"value": 10.0,
+							"displayValue": "10"
+						}
+					},
+					"offensiveKills": {
+						"statId": "offensiveKills",
+						"basic": {
+							"value": 1092.0,
+							"displayValue": "1092"
+						},
+						"pga": {
+							"value": 0.2815158546017015,
+							"displayValue": "0.3"
+						}
+					},
+					"orbsDropped": {
+						"statId": "orbsDropped",
+						"basic": {
+							"value": 5626.0,
+							"displayValue": "5626"
+						},
+						"pga": {
+							"value": 1.4503738076823924,
+							"displayValue": "1.5"
+						}
+					},
+					"orbsGathered": {
+						"statId": "orbsGathered",
+						"basic": {
+							"value": 5387.0,
+							"displayValue": "5387"
+						},
+						"pga": {
+							"value": 1.388759989688064,
+							"displayValue": "1.4"
+						}
+					},
+					"relicsCaptured": {
+						"statId": "relicsCaptured",
+						"basic": {
+							"value": 471.0,
+							"displayValue": "471"
+						},
+						"pga": {
+							"value": 0.1214230471771075,
+							"displayValue": "0.1"
+						}
+					},
+					"remainingTimeAfterQuitSeconds": {
+						"statId": "remainingTimeAfterQuitSeconds",
+						"basic": {
+							"value": 11948.0,
+							"displayValue": "3h 19m"
+						},
+						"pga": {
+							"value": 3.080175302913122,
+							"displayValue": "0m 3s"
+						}
+					},
+					"teamScore": {
+						"statId": "teamScore",
+						"basic": {
+							"value": 3.2189123E7,
+							"displayValue": "32,189,123"
+						},
+						"pga": {
+							"value": 8298.304459912348,
+							"displayValue": "8,298"
+						}
+					},
+					"totalActivityDurationSeconds": {
+						"statId": "totalActivityDurationSeconds",
+						"basic": {
+							"value": 2274750.0,
+							"displayValue": "26d 7h"
+						},
+						"pga": {
+							"value": 586.4269141531322,
+							"displayValue": "9m 46s"
+						}
+					},
+					"zonesCaptured": {
+						"statId": "zonesCaptured",
+						"basic": {
+							"value": 5241.0,
+							"displayValue": "5241"
+						},
+						"pga": {
+							"value": 1.351121423047177,
+							"displayValue": "1.4"
+						}
+					},
+					"zonesNeutralized": {
+						"statId": "zonesNeutralized",
+						"basic": {
+							"value": 3262.0,
+							"displayValue": "3262"
+						},
+						"pga": {
+							"value": 0.8409383861820057,
+							"displayValue": "0.8"
+						}
+					},
+					"combatRating": {
+						"statId": "combatRating",
+						"basic": {
+							"value": 78.42580741220918,
+							"displayValue": "78.43"
+						}
+					},
+					"longestKillDistance": {
+						"statId": "longestKillDistance",
+						"basic": {
+							"value": 199.0,
+							"displayValue": "199.0"
+						}
+					},
+					"highestCharacterLevel": {
+						"statId": "highestCharacterLevel",
+						"basic": {
+							"value": 40.0,
+							"displayValue": "40"
+						}
+					},
+					"highestLightLevel": {
+						"statId": "highestLightLevel",
+						"basic": {
+							"value": 400.0,
+							"displayValue": "400"
+						}
+					}
+				}
+			}
+		},
+		"merged": {
+			"allTime": {
+				"activitiesCleared": {
+					"statId": "activitiesCleared",
+					"basic": {
+						"value": 936.0,
+						"displayValue": "936"
+					}
+				},
+				"weaponKillsSuper": {
+					"statId": "weaponKillsSuper",
+					"basic": {
+						"value": 14015.0,
+						"displayValue": "14015"
+					},
+					"pga": {
+						"value": 2.6715592832634387,
+						"displayValue": "2.7"
+					}
+				},
+				"activitiesEntered": {
+					"statId": "activitiesEntered",
+					"basic": {
+						"value": 5246.0,
+						"displayValue": "5246"
+					}
+				},
+				"weaponKillsMelee": {
+					"statId": "weaponKillsMelee",
+					"basic": {
+						"value": 22199.0,
+						"displayValue": "22199"
+					},
+					"pga": {
+						"value": 4.231605032405643,
+						"displayValue": "4.2"
+					}
+				},
+				"weaponKillsGrenade": {
+					"statId": "weaponKillsGrenade",
+					"basic": {
+						"value": 18722.0,
+						"displayValue": "18722"
+					},
+					"pga": {
+						"value": 3.568814334731224,
+						"displayValue": "3.6"
+					}
+				},
+				"abilityKills": {
+					"statId": "abilityKills",
+					"basic": {
+						"value": 54936.0,
+						"displayValue": "54936"
+					},
+					"pga": {
+						"value": 10.471978650400304,
+						"displayValue": "10.5"
+					}
+				},
+				"assists": {
+					"statId": "assists",
+					"basic": {
+						"value": 47007.0,
+						"displayValue": "47007"
+					},
+					"pga": {
+						"value": 8.960541364849409,
+						"displayValue": "9.0"
+					}
+				},
+				"totalDeathDistance": {
+					"statId": "totalDeathDistance",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"averageDeathDistance": {
+					"statId": "averageDeathDistance",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"totalKillDistance": {
+					"statId": "totalKillDistance",
+					"basic": {
+						"value": 2587958.0,
+						"displayValue": "2587958.0"
+					}
+				},
+				"kills": {
+					"statId": "kills",
+					"basic": {
+						"value": 164637.0,
+						"displayValue": "164637"
+					},
+					"pga": {
+						"value": 31.38333968738086,
+						"displayValue": "31.4"
+					}
+				},
+				"averageKillDistance": {
+					"statId": "averageKillDistance",
+					"basic": {
+						"value": 15.71917612687306,
+						"displayValue": "15.7"
+					}
+				},
+				"secondsPlayed": {
+					"statId": "secondsPlayed",
+					"basic": {
+						"value": 4401415.0,
+						"displayValue": "50d 22h"
+					},
+					"pga": {
+						"value": 839.0040030499429,
+						"displayValue": "13m 59s"
+					}
+				},
+				"deaths": {
+					"statId": "deaths",
+					"basic": {
+						"value": 46502.0,
+						"displayValue": "46502"
+					},
+					"pga": {
+						"value": 8.864277544796035,
+						"displayValue": "8.9"
+					}
+				},
+				"averageLifespan": {
+					"statId": "averageLifespan",
+					"basic": {
+						"value": 94.64797970023439,
+						"displayValue": "1m 34s"
+					}
+				},
+				"bestSingleGameKills": {
+					"statId": "bestSingleGameKills",
+					"basic": {
+						"value": 944.0,
+						"displayValue": "944"
+					}
+				},
+				"killsDeathsRatio": {
+					"statId": "killsDeathsRatio",
+					"basic": {
+						"value": 3.5404283686723153,
+						"displayValue": "3.54"
+					}
+				},
+				"killsDeathsAssists": {
+					"statId": "killsDeathsAssists",
+					"basic": {
+						"value": 4.04585824265623,
+						"displayValue": "4.05"
+					}
+				},
+				"objectivesCompleted": {
+					"statId": "objectivesCompleted",
+					"basic": {
+						"value": 6241.0,
+						"displayValue": "6241"
+					},
+					"pga": {
+						"value": 1.189668318719024,
+						"displayValue": "1.2"
+					}
+				},
+				"precisionKills": {
+					"statId": "precisionKills",
+					"basic": {
+						"value": 40281.0,
+						"displayValue": "40281"
+					},
+					"pga": {
+						"value": 7.6784216545939765,
+						"displayValue": "7.7"
+					}
+				},
+				"resurrectionsPerformed": {
+					"statId": "resurrectionsPerformed",
+					"basic": {
+						"value": 4452.0,
+						"displayValue": "4452"
+					},
+					"pga": {
+						"value": 0.8486465878764773,
+						"displayValue": "0.8"
+					}
+				},
+				"resurrectionsReceived": {
+					"statId": "resurrectionsReceived",
+					"basic": {
+						"value": 4679.0,
+						"displayValue": "4679"
+					},
+					"pga": {
+						"value": 0.8919176515440336,
+						"displayValue": "0.9"
+					}
+				},
+				"suicides": {
+					"statId": "suicides",
+					"basic": {
+						"value": 1751.0,
+						"displayValue": "1751"
+					},
+					"pga": {
+						"value": 0.3337781166603126,
+						"displayValue": "0.3"
+					}
+				},
+				"weaponKillsAutoRifle": {
+					"statId": "weaponKillsAutoRifle",
+					"basic": {
+						"value": 14014.0,
+						"displayValue": "14014"
+					},
+					"pga": {
+						"value": 2.6713686618375907,
+						"displayValue": "2.7"
+					}
+				},
+				"weaponKillsFusionRifle": {
+					"statId": "weaponKillsFusionRifle",
+					"basic": {
+						"value": 4186.0,
+						"displayValue": "4186"
+					},
+					"pga": {
+						"value": 0.7979412886008387,
+						"displayValue": "0.8"
+					}
+				},
+				"weaponKillsHandCannon": {
+					"statId": "weaponKillsHandCannon",
+					"basic": {
+						"value": 12588.0,
+						"displayValue": "12588"
+					},
+					"pga": {
+						"value": 2.399542508577964,
+						"displayValue": "2.4"
+					}
+				},
+				"weaponKillsMachinegun": {
+					"statId": "weaponKillsMachinegun",
+					"basic": {
+						"value": 3515.0,
+						"displayValue": "3515"
+					},
+					"pga": {
+						"value": 0.6700343118566527,
+						"displayValue": "0.7"
+					}
+				},
+				"weaponKillsPulseRifle": {
+					"statId": "weaponKillsPulseRifle",
+					"basic": {
+						"value": 28128.0,
+						"displayValue": "28128"
+					},
+					"pga": {
+						"value": 5.361799466260008,
+						"displayValue": "5.4"
+					}
+				},
+				"weaponKillsRocketLauncher": {
+					"statId": "weaponKillsRocketLauncher",
+					"basic": {
+						"value": 2316.0,
+						"displayValue": "2316"
+					},
+					"pga": {
+						"value": 0.4414792222645825,
+						"displayValue": "0.4"
+					}
+				},
+				"weaponKillsScoutRifle": {
+					"statId": "weaponKillsScoutRifle",
+					"basic": {
+						"value": 16837.0,
+						"displayValue": "16837"
+					},
+					"pga": {
+						"value": 3.2094929470072437,
+						"displayValue": "3.2"
+					}
+				},
+				"weaponKillsShotgun": {
+					"statId": "weaponKillsShotgun",
+					"basic": {
+						"value": 12508.0,
+						"displayValue": "12508"
+					},
+					"pga": {
+						"value": 2.384292794510103,
+						"displayValue": "2.4"
+					}
+				},
+				"weaponKillsSniper": {
+					"statId": "weaponKillsSniper",
+					"basic": {
+						"value": 2319.0,
+						"displayValue": "2319"
+					},
+					"pga": {
+						"value": 0.4420510865421273,
+						"displayValue": "0.4"
+					}
+				},
+				"weaponKillsSubmachinegun": {
+					"statId": "weaponKillsSubmachinegun",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0"
+					},
+					"pga": {
+						"value": 0.0,
+						"displayValue": "0.0"
+					}
+				},
+				"weaponKillsRelic": {
+					"statId": "weaponKillsRelic",
+					"basic": {
+						"value": 1670.0,
+						"displayValue": "1670"
+					},
+					"pga": {
+						"value": 0.3183377811666031,
+						"displayValue": "0.3"
+					}
+				},
+				"weaponKillsSideArm": {
+					"statId": "weaponKillsSideArm",
+					"basic": {
+						"value": 2268.0,
+						"displayValue": "2268"
+					},
+					"pga": {
+						"value": 0.4323293938238658,
+						"displayValue": "0.4"
+					}
+				},
+				"weaponKillsSword": {
+					"statId": "weaponKillsSword",
+					"basic": {
+						"value": 1508.0,
+						"displayValue": "1508"
+					},
+					"pga": {
+						"value": 0.2874571101791841,
+						"displayValue": "0.3"
+					}
+				},
+				"weaponBestType": {
+					"statId": "weaponBestType",
+					"basic": {
+						"value": 2.0,
+						"displayValue": "Pulse Rifle"
+					}
+				},
+				"allParticipantsCount": {
+					"statId": "allParticipantsCount",
+					"basic": {
+						"value": 44764.0,
+						"displayValue": "44764"
+					}
+				},
+				"allParticipantsTimePlayed": {
+					"statId": "allParticipantsTimePlayed",
+					"basic": {
+						"value": 3.7296561E7,
+						"displayValue": "431d 16h"
+					}
+				},
+				"longestKillSpree": {
+					"statId": "longestKillSpree",
+					"basic": {
+						"value": 308.0,
+						"displayValue": "308"
+					}
+				},
+				"longestSingleLife": {
+					"statId": "longestSingleLife",
+					"basic": {
+						"value": 13456.0,
+						"displayValue": "3h 44m"
+					}
+				},
+				"mostPrecisionKills": {
+					"statId": "mostPrecisionKills",
+					"basic": {
+						"value": 298.0,
+						"displayValue": "298"
+					}
+				},
+				"orbsDropped": {
+					"statId": "orbsDropped",
+					"basic": {
+						"value": 21166.0,
+						"displayValue": "21166"
+					},
+					"pga": {
+						"value": 4.034693099504384,
+						"displayValue": "4.0"
+					}
+				},
+				"orbsGathered": {
+					"statId": "orbsGathered",
+					"basic": {
+						"value": 18905.0,
+						"displayValue": "18905"
+					},
+					"pga": {
+						"value": 3.6036980556614564,
+						"displayValue": "3.6"
+					}
+				},
+				"publicEventsCompleted": {
+					"statId": "publicEventsCompleted",
+					"basic": {
+						"value": 743.0,
+						"displayValue": "743"
+					},
+					"pga": {
+						"value": 0.14163171940526115,
+						"displayValue": "0.1"
+					}
+				},
+				"publicEventsJoined": {
+					"statId": "publicEventsJoined",
+					"basic": {
+						"value": 759.0,
+						"displayValue": "759"
+					},
+					"pga": {
+						"value": 0.14468166221883338,
+						"displayValue": "0.1"
+					}
+				},
+				"remainingTimeAfterQuitSeconds": {
+					"statId": "remainingTimeAfterQuitSeconds",
+					"basic": {
+						"value": 119699.0,
+						"displayValue": "1d 9h"
+					},
+					"pga": {
+						"value": 22.817194052611512,
+						"displayValue": "0m 22s"
+					}
+				},
+				"totalActivityDurationSeconds": {
+					"statId": "totalActivityDurationSeconds",
+					"basic": {
+						"value": 4754725.0,
+						"displayValue": "55d 0h"
+					},
+					"pga": {
+						"value": 906.3524590163935,
+						"displayValue": "15m 6s"
+					}
+				},
+				"fastestCompletion": {
+					"statId": "fastestCompletion",
+					"basic": {
+						"value": 0.0,
+						"displayValue": "0m 0s"
+					}
+				},
+				"courtOfOryxWinsTier1": {
+					"statId": "courtOfOryxWinsTier1",
+					"basic": {
+						"value": 211.0,
+						"displayValue": "211"
+					}
+				},
+				"courtOfOryxWinsTier2": {
+					"statId": "courtOfOryxWinsTier2",
+					"basic": {
+						"value": 72.0,
+						"displayValue": "72"
+					}
+				},
+				"courtOfOryxWinsTier3": {
+					"statId": "courtOfOryxWinsTier3",
+					"basic": {
+						"value": 73.0,
+						"displayValue": "73"
+					}
+				},
+				"courtOfOryxAttempts": {
+					"statId": "courtOfOryxAttempts",
+					"basic": {
+						"value": 131.0,
+						"displayValue": "131"
+					}
+				},
+				"courtOfOryxCompletions": {
+					"statId": "courtOfOryxCompletions",
+					"basic": {
+						"value": 356.0,
+						"displayValue": "356"
+					}
+				},
+				"longestKillDistance": {
+					"statId": "longestKillDistance",
+					"basic": {
+						"value": 1646.0,
+						"displayValue": "1646.0"
+					}
+				},
+				"highestCharacterLevel": {
+					"statId": "highestCharacterLevel",
+					"basic": {
+						"value": 40.0,
+						"displayValue": "40"
+					}
+				},
+				"highestLightLevel": {
+					"statId": "highestLightLevel",
+					"basic": {
+						"value": 400.0,
+						"displayValue": "400"
+					}
+				},
+				"activitiesWon": {
+					"statId": "activitiesWon",
+					"basic": {
+						"value": 1975.0,
+						"displayValue": "1975"
+					}
+				},
+				"score": {
+					"statId": "score",
+					"basic": {
+						"value": 5370680.0,
+						"displayValue": "5,370,680"
+					},
+					"pga": {
+						"value": 1023.7666793747617,
+						"displayValue": "1,024"
+					}
+				},
+				"averageScorePerKill": {
+					"statId": "averageScorePerKill",
+					"basic": {
+						"value": 32.621342711541146,
+						"displayValue": "33"
+					}
+				},
+				"averageScorePerLife": {
+					"statId": "averageScorePerLife",
+					"basic": {
+						"value": 115.49104358858568,
+						"displayValue": "115"
+					}
+				},
+				"bestSingleGameScore": {
+					"statId": "bestSingleGameScore",
+					"basic": {
+						"value": 22950.0,
+						"displayValue": "22,950"
+					}
+				},
+				"closeCalls": {
+					"statId": "closeCalls",
+					"basic": {
+						"value": 1606.0,
+						"displayValue": "1606"
+					},
+					"pga": {
+						"value": 0.30613800991231416,
+						"displayValue": "0.3"
+					}
+				},
+				"dominationKills": {
+					"statId": "dominationKills",
+					"basic": {
+						"value": 130.0,
+						"displayValue": "130"
+					},
+					"pga": {
+						"value": 0.024780785360274494,
+						"displayValue": "0.0"
+					}
+				},
+				"winLossRatio": {
+					"statId": "winLossRatio",
+					"basic": {
+						"value": 0.6037908896361969,
+						"displayValue": "0.60"
+					}
+				},
+				"allParticipantsScore": {
+					"statId": "allParticipantsScore",
+					"basic": {
+						"value": 6.4918858E7,
+						"displayValue": "64,918,858"
+					}
+				},
+				"defensiveKills": {
+					"statId": "defensiveKills",
+					"basic": {
+						"value": 2628.0,
+						"displayValue": "2628"
+					}
+				},
+				"offensiveKills": {
+					"statId": "offensiveKills",
+					"basic": {
+						"value": 1092.0,
+						"displayValue": "1092"
+					},
+					"pga": {
+						"value": 0.20815859702630576,
+						"displayValue": "0.2"
+					}
+				},
+				"relicsCaptured": {
+					"statId": "relicsCaptured",
+					"basic": {
+						"value": 471.0,
+						"displayValue": "471"
+					},
+					"pga": {
+						"value": 0.08978269157453297,
+						"displayValue": "0.1"
+					}
+				},
+				"teamScore": {
+					"statId": "teamScore",
+					"basic": {
+						"value": 3.2189123E7,
+						"displayValue": "32,189,123"
+					},
+					"pga": {
+						"value": 6135.936523065193,
+						"displayValue": "6,136"
+					}
+				},
+				"zonesCaptured": {
+					"statId": "zonesCaptured",
+					"basic": {
+						"value": 5241.0,
+						"displayValue": "5241"
+					},
+					"pga": {
+						"value": 0.9990468928707587,
+						"displayValue": "1.0"
+					}
+				},
+				"zonesNeutralized": {
+					"statId": "zonesNeutralized",
+					"basic": {
+						"value": 3262.0,
+						"displayValue": "3262"
+					},
+					"pga": {
+						"value": 0.6218070911170416,
+						"displayValue": "0.6"
+					}
+				},
+				"combatRating": {
+					"statId": "combatRating",
+					"basic": {
+						"value": 68.24671251708993,
+						"displayValue": "68.25"
+					}
+				}
+			}
+		}
+	},
+	"characters": {
+		"destinyAccounts": [
+			{
+				"userInfo": {
+					"iconPath": "/common/destiny_content/icons/95750a10c39c30fae62c96bd4b29ea45.jpg",
+					"membershipType": 2,
+					"membershipId": "4611686018450420334",
+					"displayName": "eraseme"
+				},
+				"grimoireScore": 5140,
+				"characters": [
+					{
+						"characterId": "2305843009411304571",
+						"raceHash": 3887404748,
+						"genderHash": 2204441813,
+						"classHash": 671679327,
+						"emblemHash": 855333071,
+						"race": {
+							"raceHash": 3887404748,
+							"raceType": 0,
+							"raceName": "Human",
+							"raceNameMale": "Human Male",
+							"raceNameFemale": "Human Female",
+							"raceDescription": "Human",
+							"hash": 3887404748,
+							"index": 0,
+							"redacted": false
+						},
+						"gender": {
+							"genderHash": 2204441813,
+							"genderType": 1,
+							"genderName": "Female",
+							"genderDescription": "",
+							"hash": 2204441813,
+							"index": 0,
+							"redacted": false
+						},
+						"characterClass": {
+							"classHash": 671679327,
+							"classType": 1,
+							"className": "Hunter",
+							"classNameMale": "Hunter",
+							"classNameFemale": "Hunter",
+							"classIdentifier": "CLASS_HUNTER",
+							"mentorVendorIdentifier": "VENDOR_HUNTER_MENTOR",
+							"hash": 671679327,
+							"index": 0,
+							"redacted": false
+						},
+						"emblemPath": "/common/destiny_content/icons/95750a10c39c30fae62c96bd4b29ea45.jpg",
+						"backgroundPath": "/common/destiny_content/icons/4def1e22cf50a13b41c323c2a9cfbe68.jpg",
+						"level": 40,
+						"powerLevel": 400,
+						"dateLastPlayed": "2017-06-04T03:51:46Z",
+						"membershipId": "4611686018450420334",
+						"membershipType": 2,
+						"levelProgression": {
+							"dailyProgress": 0,
+							"weeklyProgress": 0,
+							"currentProgress": 346000,
+							"level": 40,
+							"step": 0,
+							"progressToNextLevel": 0,
+							"nextLevelAt": 0,
+							"progressionHash": 1716568313
+						},
+						"isPrestigeLevel": false,
+						"genderType": 1,
+						"classType": 1,
+						"percentToNextLevel": 0.0,
+						"currentActivityHash": 0
+					},
+					{
+						"characterId": "2305843009331584434",
+						"raceHash": 898834093,
+						"genderHash": 3111576190,
+						"classHash": 3655393761,
+						"emblemHash": 1527273557,
+						"race": {
+							"raceHash": 898834093,
+							"raceType": 2,
+							"raceName": "Exo",
+							"raceNameMale": "Exo Male",
+							"raceNameFemale": "Exo Female",
+							"raceDescription": "Self-aware machines built for a long-forgotten war.",
+							"hash": 898834093,
+							"index": 0,
+							"redacted": false
+						},
+						"gender": {
+							"genderHash": 3111576190,
+							"genderType": 0,
+							"genderName": "Male",
+							"genderDescription": "",
+							"hash": 3111576190,
+							"index": 0,
+							"redacted": false
+						},
+						"characterClass": {
+							"classHash": 3655393761,
+							"classType": 0,
+							"className": "Titan",
+							"classNameMale": "Titan",
+							"classNameFemale": "Titan",
+							"classIdentifier": "CLASS_TITAN",
+							"mentorVendorIdentifier": "VENDOR_TITAN_MENTOR",
+							"hash": 3655393761,
+							"index": 0,
+							"redacted": false
+						},
+						"emblemPath": "/common/destiny_content/icons/6f75c4ecfa99020a0a0390f64ca71448.jpg",
+						"backgroundPath": "/common/destiny_content/icons/f9893f7d22d4f339eaa474ab16e588d0.jpg",
+						"level": 40,
+						"powerLevel": 400,
+						"dateLastPlayed": "2017-06-04T01:26:05Z",
+						"membershipId": "4611686018450420334",
+						"membershipType": 2,
+						"levelProgression": {
+							"dailyProgress": 0,
+							"weeklyProgress": 0,
+							"currentProgress": 346000,
+							"level": 40,
+							"step": 0,
+							"progressToNextLevel": 0,
+							"nextLevelAt": 0,
+							"progressionHash": 1716568313
+						},
+						"isPrestigeLevel": false,
+						"genderType": 0,
+						"classType": 0,
+						"percentToNextLevel": 0.0,
+						"currentActivityHash": 0
+					},
+					{
+						"characterId": "2305843009316349515",
+						"raceHash": 2803282938,
+						"genderHash": 3111576190,
+						"classHash": 2271682572,
+						"emblemHash": 2809337287,
+						"race": {
+							"raceHash": 2803282938,
+							"raceType": 1,
+							"raceName": "Awoken",
+							"raceNameMale": "Awoken Male",
+							"raceNameFemale": "Awoken Female",
+							"raceDescription": "The Awoken survived the Collapse in deep space. But they were forever changed.",
+							"hash": 2803282938,
+							"index": 0,
+							"redacted": false
+						},
+						"gender": {
+							"genderHash": 3111576190,
+							"genderType": 0,
+							"genderName": "Male",
+							"genderDescription": "",
+							"hash": 3111576190,
+							"index": 0,
+							"redacted": false
+						},
+						"characterClass": {
+							"classHash": 2271682572,
+							"classType": 2,
+							"className": "Warlock",
+							"classNameMale": "Warlock",
+							"classNameFemale": "Warlock",
+							"classIdentifier": "CLASS_WARLOCK",
+							"mentorVendorIdentifier": "VENDOR_WARLOCK_MENTOR",
+							"hash": 2271682572,
+							"index": 0,
+							"redacted": false
+						},
+						"emblemPath": "/common/destiny_content/icons/a81bf8727aa47bf5dfe0dc6f9a783d43.jpg",
+						"backgroundPath": "/common/destiny_content/icons/9244bcc3903398204b866d6fc584f698.jpg",
+						"level": 40,
+						"powerLevel": 400,
+						"dateLastPlayed": "2017-05-08T13:20:26Z",
+						"membershipId": "4611686018450420334",
+						"membershipType": 2,
+						"levelProgression": {
+							"dailyProgress": 0,
+							"weeklyProgress": 0,
+							"currentProgress": 346000,
+							"level": 40,
+							"step": 0,
+							"progressToNextLevel": 0,
+							"nextLevelAt": 0,
+							"progressionHash": 1716568313
+						},
+						"isPrestigeLevel": false,
+						"genderType": 0,
+						"classType": 2,
+						"percentToNextLevel": 0.0,
+						"currentActivityHash": 0
+					}
+				],
+				"lastPlayed": "2017-06-04T03:51:46Z",
+				"versions": 15
+			}
+		],
+		"bungieNetUser": {
+			"membershipId": "10951786",
+			"uniqueName": "10951786",
+			"displayName": "eraseme",
+			"profilePicture": 70587,
+			"profileTheme": 116,
+			"userTitle": 0,
+			"successMessageFlags": "0",
+			"isDeleted": false,
+			"about": "",
+			"firstAccess": "2015-06-15T10:27:41.352Z",
+			"lastUpdate": "2016-09-01T01:13:27.782Z",
+			"psnDisplayName": "eraseme",
+			"showActivity": true,
+			"locale": "en",
+			"localeInheritDefault": true,
+			"showGroupMessaging": true,
+			"profilePicturePath": "/img/profile/avatars/e2015_15.jpg",
+			"profileThemeName": "bungie_day15_29",
+			"userTitleDisplay": "Newbie",
+			"statusText": "Fueled by Dr Pepper",
+			"statusDate": "2015-10-02T06:57:53.189Z"
+		},
+		"clans": [
+			{
+				"groupId": "1390012",
+				"platformType": 2
+			}
+		],
+		"relatedGroups": {
+			"1390012": {
+				"groupId": "1390012",
+				"name": "FESTIVUS MIRACLE",
+				"membershipIdCreated": "7888596",
+				"creationDate": "2015-12-22T22:39:36.957Z",
+				"modificationDate": "2016-12-07T21:07:57.349Z",
+				"groupType": 0,
+				"about": "To perform feats of strength and the airing of grievances.",
+				"isDeleted": false,
+				"tags": [],
+				"rating": 0,
+				"ratingCount": 0,
+				"memberCount": 7,
+				"pendingMemberCount": 0,
+				"isPublic": false,
+				"isMembershipClosed": false,
+				"isMembershipReviewed": true,
+				"isPublicTopicAdminOnly": false,
+				"primaryAlliedGroupId": "0",
+				"motto": "",
+				"clanCallsign": "FEST",
+				"allowChat": true,
+				"isDefaultPostPublic": false,
+				"isDefaultPostAlliance": false,
+				"chatSecurity": 0,
+				"locale": "en",
+				"avatarImageIndex": 70029,
+				"founderMembershipId": "7888596",
+				"homepage": 0,
+				"membershipOption": 0,
+				"defaultPublicity": 2,
+				"theme": "Group_Team",
+				"bannerPath": "/img/Themes/Group_Team/struct_images/group_top_banner.jpg",
+				"avatarPath": "/img/profile/avatars/group/029.png",
+				"isAllianceOwner": false,
+				"conversationId": "14850156",
+				"clanReviewType": 1,
+				"enableInvitationMessagingForAdmins": true,
+				"banExpireDate": "2001-01-01T00:00:00Z"
+			}
+		},
+		"destinyAccountErrors": []
+	}
+}

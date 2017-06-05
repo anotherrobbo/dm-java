@@ -40,6 +40,18 @@ public class BungieInterface {
 		return players.get("Response");
 	}
 	
+	public static JsonNode getPlayerChars(int systemCode, long id) throws BungieInterfaceException {
+		JsonNode players = bungieClient.get().playerChars(systemCode, id);
+		verifyResponse(players);
+		return players.get("Response").get("characters");
+	}
+	
+	public static JsonNode getCharActivities(int systemCode, long pid, long cid, int page, int count) throws BungieInterfaceException {
+		JsonNode activities = bungieClient.get().getCharActivities(systemCode, pid, cid, page, count);
+		verifyResponse(activities);
+		return activities.get("Response").get("data").get("activities");
+	}
+	
 	public static String getMetadata(String type, String typeDef, String hash) throws BungieInterfaceException {
 		JsonNode metadata = bungieClient.get().metadata(type, hash);
 		verifyResponse(metadata);

@@ -18,7 +18,7 @@ public class PlayerService {
 	@Inject
 	private PlayerRecordDao playerRecordDao;
 	
-	public Player getPlayer(String system, String name) throws BungieInterfaceException {
+	public Player getPlayerOverview(String system, String name) throws BungieInterfaceException {
 		PlayerRecord pr = getPlayerRecord(system, name);
 		
 		Player p = new Player();
@@ -34,11 +34,13 @@ public class PlayerService {
 	        p.setClanTag(clan.get("clanCallsign").asText());
 		}
         p.setGrimoire(summary.get("destinyAccounts").get(0).get("grimoireScore").asInt());
-        p.setChars(getChars(summary.get("destinyAccounts").get(0).get("characters")));
+        p.setChars(getActiveChars(summary));
+        pr.incrementOverviewCount();
+        playerRecordDao.save(pr);
         return p;
 	}
 	
-	private PlayerRecord getPlayerRecord(String system, String name) {
+	PlayerRecord getPlayerRecord(String system, String name) {
 		PlayerRecord pr = playerRecordDao.findPlayer(system, name);
         if (pr == null) {
             pr = new PlayerRecord();
@@ -59,7 +61,7 @@ public class PlayerService {
 				pr = null;
 			}
         }
-		        
+        
 		return pr;
 	}
 	
@@ -73,7 +75,8 @@ public class PlayerService {
 		}
 	}
 	
-	private List<com.anotherrobbo.dm.model.Character> getChars(JsonNode characters) {
+	private List<com.anotherrobbo.dm.model.Character> getActiveChars(JsonNode summary) {
+		JsonNode characters = summary.get("destinyAccounts").get(0).get("characters");
 		List<com.anotherrobbo.dm.model.Character> chars = new ArrayList<>();
 		Iterator<JsonNode> elements = characters.elements();
 		while (elements.hasNext()) {
