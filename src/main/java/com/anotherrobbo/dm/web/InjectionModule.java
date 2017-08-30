@@ -1,7 +1,11 @@
 package com.anotherrobbo.dm.web;
 
 import javax.servlet.ServletContext;
+import javax.ws.rs.core.Application;
 
+import com.anotherrobbo.dm.external.MetadataService;
+import com.anotherrobbo.dm.job.MatchJob;
+import com.anotherrobbo.dm.job.MatchJobProvider;
 import com.anotherrobbo.dm.rest.Admin;
 import com.anotherrobbo.dm.rest.Index;
 import com.anotherrobbo.dm.rest.Matches;
@@ -20,6 +24,7 @@ public class InjectionModule extends AbstractModule {
 	
 	@Override
 	protected void configure() {
+	    bind(Application.class);
 		bind(Index.class);
 		bind(Search.class);
 		bind(Overview.class);
@@ -27,5 +32,7 @@ public class InjectionModule extends AbstractModule {
 		bind(Admin.class);
 		bind(Resources.class);
 		bind(ServletContext.class).toInstance(context);
+		bind(MetadataService.class);
+		bind(MatchJob.class).toProvider(MatchJobProvider.class);
 	}
 }

@@ -2,7 +2,6 @@ package com.anotherrobbo.dm.rest;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.ws.rs.GET;
@@ -37,9 +36,7 @@ public class Search {
 
 	private Collection<? extends Player> convertPlayers(JsonNode pArray) {
 		List<Player> players = new ArrayList<>();
-		Iterator<JsonNode> elements = pArray.elements();
-		while(elements.hasNext()) {
-			JsonNode next = elements.next();
+		for (JsonNode next : pArray) {
 			Player p = new Player();
 			p.setSystemCode(next.get("membershipType").asInt());
 			switch (p.getSystemCode()) {

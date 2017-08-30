@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
+import org.jboss.logging.Logger;
 
 /**
  * Uses properties specifically for AWS 
@@ -17,9 +18,9 @@ public class EntityManagerProvider {
 	private static final String PROP_DB_PORT = "RDS_PORT";
 	private static final String PROP_DB_NAME = "RDS_DB_NAME";
 	
-	private static final String PROP_CONN_USERNAME = "hibernate.connection.username";
-	private static final String PROP_CONN_PASSWORD = "hibernate.connection.password";
-	private static final String PROP_CONN_URL = "hibernate.connection.url";
+	private static final String PROP_CONN_USERNAME = "javax.persistence.jdbc.user";
+	private static final String PROP_CONN_PASSWORD = "javax.persistence.jdbc.password";
+	private static final String PROP_CONN_URL = "javax.persistence.jdbc.url";
 
 	public static Map<String, String> getPropertyOverrides() {
 		Map<String, String> overrides = new HashMap<String, String>();
@@ -35,6 +36,7 @@ public class EntityManagerProvider {
 			String url = "jdbc:postgresql://" + System.getProperty(PROP_DB_HOSTNAME) + ":" + System.getProperty(PROP_DB_PORT) + "/" + System.getProperty(PROP_DB_NAME);
 			overrides.put(PROP_CONN_URL, url);
 		}
+		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides");
 		return overrides;
 	}
 

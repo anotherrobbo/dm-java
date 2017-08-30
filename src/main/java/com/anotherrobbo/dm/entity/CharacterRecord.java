@@ -1,8 +1,11 @@
 package com.anotherrobbo.dm.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -37,7 +40,7 @@ public class CharacterRecord extends BaseEntity {
 	private PlayerRecord playerRecord;
 	
 	//bi-directional many-to-one association to ActivityRecord
-	@OneToMany(mappedBy="characterRecord")
+	@OneToMany(mappedBy="characterRecord", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
 	@OrderBy("period desc")
 	private List<ActivityRecord> activityRecords;
 
@@ -69,6 +72,9 @@ public class CharacterRecord extends BaseEntity {
 	}
 	
 	public List<ActivityRecord> getActivityRecords() {
+		if (this.activityRecords == null) {
+			this.activityRecords = new ArrayList<ActivityRecord>();
+		}
 		return this.activityRecords;
 	}
 

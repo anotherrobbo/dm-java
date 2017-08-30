@@ -3,7 +3,7 @@ package com.anotherrobbo.dm.job;
 import java.util.List;
 import java.util.UUID;
 
-import com.anotherrobbo.dm.model.ActivityDetail;
+import com.anotherrobbo.dm.model.ActivityStats;
 
 public class MatchProcess {
 	private final String id = UUID.randomUUID().toString();
@@ -11,7 +11,7 @@ public class MatchProcess {
 	private String name2;
 	int total;
 	int progress;
-	private List<ActivityDetail> result;
+	private List<ActivityStats> result;
 	private String error;
 	
 	public String getId() {
@@ -53,10 +53,14 @@ public class MatchProcess {
 		this.error = error;
 	}
 	
-	public List<ActivityDetail> getResult() {
+	public List<ActivityStats> getResult() {
 		return result;
 	}
-	public void setResult(List<ActivityDetail> result) {
+	public void setResult(List<ActivityStats> result) {
 		this.result = result;
+	}
+
+	public void incrementProgress() {
+		this.progress++;
 	}
 }

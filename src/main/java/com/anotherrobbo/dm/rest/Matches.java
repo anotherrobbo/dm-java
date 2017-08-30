@@ -14,6 +14,7 @@ import javax.ws.rs.core.Response;
 import com.anotherrobbo.dm.external.BungieInterface.BungieInterfaceException;
 import com.anotherrobbo.dm.freemarker.FreemarkerUtil;
 import com.anotherrobbo.dm.job.MatchProcess;
+import com.anotherrobbo.dm.model.ActivityStats;
 import com.anotherrobbo.dm.service.MatchService;
 
 @Path("/match")
@@ -39,6 +40,13 @@ public class Matches {
 	@Produces(MediaType.APPLICATION_JSON)
 	public MatchProcess pollProcess(@PathParam("id") String id) {
 		return matchService.pollProcess(id);
+	}
+	
+	@GET
+	@Path("details/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ActivityStats getDetails(@PathParam("id") Long id) throws BungieInterfaceException {
+		return matchService.getDetails(id);
 	}
 	
 }

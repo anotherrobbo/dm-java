@@ -54,7 +54,7 @@
             for (i in matches) {
                 var title = matches[i].activityType ? matches[i].activityType + ' - ' + matches[i].activityName : matches[i].activityName;
                 matchOutput += '<div class="panel panel-default match">';
-                matchOutput += '<a class="match-link" href="' + rootUrl + 'match/single/' + matches[i].id + '" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>';
+                matchOutput += '<a class="match-link" href="' + rootUrl + '/match/single/' + matches[i].id + '" target="_blank"><span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>';
                 matchOutput += '<div class="panel-heading" data-toggle="collapse" data-target="#cd-' + matches[i].id + '"><div class="tableDiv">'
                 matchOutput += '<div class="activityCell"><img class="activityIcon" src="' + matches[i].activityIcon + '" title="' + title + '" /></div>';
                 matchOutput += '<div class="dateCell">' + convertDateString(matches[i].period) + '</div>';
@@ -70,9 +70,9 @@
                 matchOutput += '</div>';
                 matchOutput += '<div class="fillCell">';
                 if (Number(matches[i].kd) >= 1) {
-                    matchOutput += ' <span class="text-success" aria-hidden="true">' + matches[i].kd + '</span> ';
+                    matchOutput += ' <span class="text-success" aria-hidden="true">' + padDecimal(matches[i].kd, 2) + '</span> ';
                 } else {
-                    matchOutput += ' <span class="text-danger" aria-hidden="true">' + matches[i].kd + '</span> ';
+                    matchOutput += ' <span class="text-danger" aria-hidden="true">' + padDecimal(matches[i].kd, 2) + '</span> ';
                 }
                 matchOutput += '</div>';
                 matchOutput += '</div></div>';
@@ -92,7 +92,7 @@
             if (!$('.panel-body .activityData', collapsable).length) {
                 $('.panel-body .loading-spinner', collapsable).show();
                 $.ajax({
-                    url:rootUrl + 'match/details/' + $('.panel-body input[type="hidden"]', collapsable).val(),
+                    url:rootUrl + '/match/details/' + $('.panel-body input[type="hidden"]', collapsable).val(),
                     type:'GET',
                     success:function(data, status, jqXHR){
                         $('.panel-body', collapsable).append('<div class="activityData">' + methods.showActivity(data) + '</div>');
@@ -120,7 +120,7 @@
             //var t = 0;
             for (var t in teamStats) {
                 teamStat = teamStats[t];
-                output += '<div class="team team-' + teamStat.name + '">';
+                output += '<div class="panel '+ (teamStat.name == 'Alpha' ? 'panel-danger' : 'panel-info') + '">';
                 output += '<div class="panel-heading">';
                 output += teamStat.name + ' ' + teamStat.score + ' ' + teamStat.result;
                 output += '</div>';
@@ -162,7 +162,7 @@
                 output += '<tr class="invisRow"></tr>';
                 output += '<tr class="player">';
                 output += '<td colspan="3">' + playerStat.name + '</td>';
-                output += '<td colspan="2" style="font-size: smaller; text-align: right">' + playerStat.class + ' ' + playerStat.level + '</td>';
+                output += '<td colspan="2" style="font-size: smaller; text-align: right">' + playerStat.charClass + ' ' + playerStat.level + '</td>';
                 output += '</tr>';
             }
             output += '</tbody></table>'

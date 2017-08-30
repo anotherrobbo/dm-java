@@ -1,0 +1,37 @@
+.match .panel-heading {
+    padding: 5px;
+}
+
+.match>.panel-body {
+    padding: 0px;
+}
+
+table.players > thead > tr > th, table.players > tbody > tr > td {
+    padding: 0px 5px 0px 5px;
+    vertical-align: middle;
+}
+
+table.players > tbody > tr > td.iconCell {
+    padding: 2px 5px 2px 5px;
+    width: 56px;
+}
+
+.tableDiv {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tableDiv > div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.activityCell {
+    width: 50px;
+}
+
+.dateCell {
+    width: 155px;
+}

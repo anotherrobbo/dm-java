@@ -11,6 +11,7 @@ import org.jboss.resteasy.plugins.guice.GuiceResteasyBootstrapServletContextList
 import com.anotherrobbo.dm.entity.manager.EntityManagerProvider;
 import com.google.inject.Injector;
 import com.google.inject.Module;
+import com.google.inject.Stage;
 import com.google.inject.persist.PersistService;
 import com.google.inject.persist.jpa.JpaPersistModule;
 
@@ -26,6 +27,11 @@ public class Listener extends GuiceResteasyBootstrapServletContextListener {
 	@Override
 	protected void withInjector(Injector injector) {
 		injector.getInstance(PersistService.class).start();
+	}
+	
+	@Override
+	protected Stage getStage(ServletContext context) {
+	    return Stage.PRODUCTION;
 	}
 	
 }

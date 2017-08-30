@@ -1,5 +1,7 @@
 package com.anotherrobbo.dm.external;
 
+import java.time.ZonedDateTime;
+
 import org.jboss.logging.Logger;
 import org.junit.Assert;
 import org.junit.Test;
@@ -33,7 +35,15 @@ public class BungieInterfaceTest {
 	
 	@Test
 	public void testGetPlayerChars() throws Exception {
-		JsonNode response = BungieInterface.getPlayerChars(2, 4611686018450420334L);
+//		JsonNode response = BungieInterface.getPlayerChars(2, 4611686018450420334L);
+//		Assert.assertNotNull(response);
+//		log.info(response);
+		log.info(ZonedDateTime.parse("2015-09-10T09:44:23Z"));
+	}
+	
+	@Test
+	public void testGetCharActivities() throws Exception {
+		JsonNode response = BungieInterface.getCharActivities(2, 4611686018450420334L, 2305843009411304571L, 0, 10);
 		Assert.assertNotNull(response);
 		log.info(response);
 	}

@@ -1,10 +1,12 @@
 package com.anotherrobbo.dm.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -42,7 +44,7 @@ public class PlayerRecord extends BaseEntity {
 	private Integer systemCode;
 
 	//bi-directional many-to-one association to CharacterRecord
-	@OneToMany(mappedBy="playerRecord", cascade=CascadeType.ALL)
+	@OneToMany(mappedBy="playerRecord", cascade=CascadeType.ALL, fetch=FetchType.LAZY)
 	private List<CharacterRecord> characterRecords;
 
 	public PlayerRecord() {
@@ -97,6 +99,9 @@ public class PlayerRecord extends BaseEntity {
 	}
 
 	public List<CharacterRecord> getCharacterRecords() {
+		if (this.characterRecords == null) {
+			this.characterRecords = new ArrayList<CharacterRecord>();
+		}
 		return this.characterRecords;
 	}
 

@@ -6,10 +6,10 @@ import java.sql.Timestamp;
 public abstract class Activity {
 	private Long id;
     private Timestamp period;
-    private Long activityTypeHash;
-    private Long activityHash;
+    private String activityTypeHash;
+    private String activityHash;
     private boolean result;
-    private int team;
+    private String team;
     private BigDecimal kd;
     private String activityIcon;
     private String activityType;
@@ -28,16 +28,16 @@ public abstract class Activity {
 	public void setPeriod(Timestamp period) {
 		this.period = period;
 	}
-	public Long getActivityTypeHash() {
+	public String getActivityTypeHash() {
 		return activityTypeHash;
 	}
-	public void setActivityTypeHash(Long activityTypeHash) {
+	public void setActivityTypeHash(String activityTypeHash) {
 		this.activityTypeHash = activityTypeHash;
 	}
-	public Long getActivityHash() {
+	public String getActivityHash() {
 		return activityHash;
 	}
-	public void setActivityHash(Long activityHash) {
+	public void setActivityHash(String activityHash) {
 		this.activityHash = activityHash;
 	}
 	public boolean isResult() {
@@ -46,10 +46,13 @@ public abstract class Activity {
 	public void setResult(boolean result) {
 		this.result = result;
 	}
-	public int getTeam() {
+	public void setResult(int result) {
+		this.result = result > 0;
+	}
+	public String getTeam() {
 		return team;
 	}
-	public void setTeam(int team) {
+	public void setTeam(String team) {
 		this.team = team;
 	}
 	public BigDecimal getKd() {
