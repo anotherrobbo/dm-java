@@ -26,7 +26,7 @@ public class ActivityService {
 
 	public ActivityStats getActivityStats(long id) throws BungieInterfaceException {
 	    ActivityStats a = new ActivityStats();
-	    JsonNode act = BungieInterface.getActivityReport(id);
+	    JsonNode act = BungieInterface.getActivityDetails(id);
 	    // Not all have teams
 	    if (act.hasNonNull("teams") && act.get("teams").size() > 0) {
 	        a.setTeamStats(getTeamStats(act));
@@ -64,7 +64,7 @@ public class ActivityService {
 	        t.setId(teamEntry.get("teamId").asLong());
 	        t.setName(teamEntry.get("teamName").asText());
 	        t.setResult(teamEntry.get("standing").get("basic").get("displayValue").asText());
-	        t.setScore(teamEntry.get("score").get("basic").get("value").asInt());
+	        t.setScore(teamEntry.get("score").get("basic").get("value").asText());
 	        t.setPlayerStats(getPlayerStats(act, t.getId()));
 	        teams.add(t);
 	    }
@@ -75,7 +75,7 @@ public class ActivityService {
             t.setId(-1L);
             t.setName("No Team");
             t.setResult("");
-            t.setScore(0);
+            t.setScore("0");
             t.setPlayerStats(noTeam);
             teams.add(t);
 	    }
@@ -94,14 +94,14 @@ public class ActivityService {
 	            p.setId(playerEntry.get("player").get("destinyUserInfo").get("membershipId").asLong());
 	            p.setName(playerEntry.get("player").get("destinyUserInfo").get("displayName").asText());
 	            p.setPlayerIcon(BungieInterface.BUNGIE_URL + playerEntry.get("player").get("destinyUserInfo").get("iconPath").asText());
-	            p.setClassType(playerEntry.get("player").get("characterClass").asText());
-	            p.setLevel(playerEntry.get("player").get("characterLevel").asInt());
-	            p.setLight(playerEntry.get("player").get("lightLevel").asInt());
-	            p.setScore(playerEntry.get("score").get("basic").get("value").asInt());
-	            p.setK(playerEntry.get("values").get("kills").get("basic").get("value").asInt());
-	            p.setA(playerEntry.get("values").get("assists").get("basic").get("value").asInt());
-	            p.setD(playerEntry.get("values").get("deaths").get("basic").get("value").asInt());
-	            p.setKd(playerEntry.get("values").get("killsDeathsRatio").get("basic").get("value").decimalValue());
+//	            p.setClassType(playerEntry.get("player").get("characterClass").asText());
+//	            p.setLevel(playerEntry.get("player").get("characterLevel").asInt());
+//	            p.setLight(playerEntry.get("player").get("lightLevel").asInt());
+//	            p.setScore(playerEntry.get("score").get("basic").get("value").asInt());
+//	            p.setK(playerEntry.get("values").get("kills").get("basic").get("value").asInt());
+//	            p.setA(playerEntry.get("values").get("assists").get("basic").get("value").asInt());
+//	            p.setD(playerEntry.get("values").get("deaths").get("basic").get("value").asInt());
+//	            p.setKd(playerEntry.get("values").get("killsDeathsRatio").get("basic").get("value").decimalValue());
 	            p.setCompleted(playerEntry.get("values").get("completed").get("basic").get("value").asBoolean());
 	            players.add(p);
 	        }

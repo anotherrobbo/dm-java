@@ -38,34 +38,34 @@ public class GameProcessService {
 	@Inject
     private Provider<BulkLoadJob> bulkLoadJobProvider;
 	
-	public MatchProcess findMatches(String system, String name, String name2) {
-	    MatchProcess process = new MatchProcess();
-		process.setName1(name);
-		process.setName2(name2);
+	public GameProcess findMatches(String system, String name, String name2) {
+	    GameProcess process = null;//new GameProcess();
+//		process.setName1(name);
+//		process.setName2(name2);
 		
-		try {
-			PlayerRecord player1 = playerService.getPlayerRecord(system, name);
-			PlayerRecord player2 = playerService.getPlayerRecord(system, name2);
-			
-			if (player1 != null && player2 != null) {
-				List<CharacterRecord> c1 = getCharacterRecords(player1);
-				List<CharacterRecord> c2 = getCharacterRecords(player2);
-				
-				process.setTotal(c1.size() + c2.size());
-				process.setName1(player1.getName());
-				process.setName2(player2.getName());
-				
-				processExecutor.execute(matchJobProvider.get().initialise(process, player1, player2, false));
-				
-				processCache.put(process.getId(), process);
-			} else if (player1 == null) {
-				process.setError("Unable to find " + name);
-			} else if (player2 == null) {
-				process.setError("Unable to find " + name2);
-			}
-		} catch (BungieInterfaceException e) {
-			process.setError(e.getMessage());
-		}
+//		try {
+//			PlayerRecord player1 = playerService.getPlayerRecord(system, name);
+//			PlayerRecord player2 = playerService.getPlayerRecord(system, name2);
+//			
+//			if (player1 != null && player2 != null) {
+//				List<CharacterRecord> c1 = getCharacterRecords(player1);
+//				List<CharacterRecord> c2 = getCharacterRecords(player2);
+//				
+//				process.setTotal(c1.size() + c2.size());
+//				process.setName1(player1.getName());
+//				process.setName2(player2.getName());
+//				
+//				processExecutor.execute(matchJobProvider.get().initialise(process, player1, player2, false));
+//				
+//				processCache.put(process.getId(), process);
+//			} else if (player1 == null) {
+//				process.setError("Unable to find " + name);
+//			} else if (player2 == null) {
+//				process.setError("Unable to find " + name2);
+//			}
+//		} catch (BungieInterfaceException e) {
+//			process.setError(e.getMessage());
+//		}
 		
 		return process;
 	}
