@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 public class BungieInterface {
 	public static final String BUNGIE_URL = "https://www.bungie.net";
-	private static final String BUNGIE_API_KEY = System.getProperty("BUNGIE_API_KEY");
+	private static final String BUNGIE_API_KEY = System.getProperty("BUNGIE_API_KEY", System.getenv("BUNGIE_API_KEY"));
 	
 	private static final Logger log = Logger.getLogger(BungieInterface.class);
 	private static ThreadLocal<BungieD1Client> bungieD1Client = new ThreadLocal<BungieD1Client>() {
