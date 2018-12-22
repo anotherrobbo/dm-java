@@ -7,7 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.jboss.logging.Logger;
 
 /**
- * Uses properties specifically for AWS 
+ * Uses properties specifically for AWS / Heroku
  * 
  */
 public class EntityManagerProvider {
@@ -17,6 +17,7 @@ public class EntityManagerProvider {
 	private static final String PROP_DB_HOSTNAME = "RDS_HOSTNAME";
 	private static final String PROP_DB_PORT = "RDS_PORT";
 	private static final String PROP_DB_NAME = "RDS_DB_NAME";
+	private static final String PROP_DB_URL = "DATABASE_URL";
 	
 	private static final String PROP_CONN_USERNAME = "javax.persistence.jdbc.user";
 	private static final String PROP_CONN_PASSWORD = "javax.persistence.jdbc.password";
@@ -35,6 +36,9 @@ public class EntityManagerProvider {
 				StringUtils.isNotBlank(System.getProperty(PROP_DB_NAME))) {
 			String url = "jdbc:postgresql://" + System.getProperty(PROP_DB_HOSTNAME) + ":" + System.getProperty(PROP_DB_PORT) + "/" + System.getProperty(PROP_DB_NAME);
 			overrides.put(PROP_CONN_URL, url);
+		} else if (StringUtils.isNotBlank(System.getProperty(PROP_DB_URL))) {
+		    String url = "jdbc:" + System.getProperty(PROP_DB_URL);
+            overrides.put(PROP_CONN_URL, url);
 		}
 		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides");
 		return overrides;
