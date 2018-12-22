@@ -25,25 +25,27 @@ public class EntityManagerProvider {
 
 	public static Map<String, String> getPropertyOverrides() {
 		Map<String, String> overrides = new HashMap<String, String>();
-		if (StringUtils.isNotBlank(System.getProperty(PROP_DB_USERNAME))) {
-			overrides.put(PROP_CONN_USERNAME, System.getProperty(PROP_DB_USERNAME));
+		if (StringUtils.isNotBlank(getProperty(PROP_DB_USERNAME))) {
+			overrides.put(PROP_CONN_USERNAME, getProperty(PROP_DB_USERNAME));
 		}
-		if (StringUtils.isNotBlank(System.getProperty(PROP_DB_PASSWORD))) {
-			overrides.put(PROP_CONN_PASSWORD, System.getProperty(PROP_DB_PASSWORD));
+		if (StringUtils.isNotBlank(getProperty(PROP_DB_PASSWORD))) {
+			overrides.put(PROP_CONN_PASSWORD, getProperty(PROP_DB_PASSWORD));
 		}
-		if (StringUtils.isNotBlank(System.getProperty(PROP_DB_HOSTNAME)) &&
-				StringUtils.isNotBlank(System.getProperty(PROP_DB_PORT)) &&
-				StringUtils.isNotBlank(System.getProperty(PROP_DB_NAME))) {
-			String url = "jdbc:postgresql://" + System.getProperty(PROP_DB_HOSTNAME) + ":" + System.getProperty(PROP_DB_PORT) + "/" + System.getProperty(PROP_DB_NAME);
+		if (StringUtils.isNotBlank(getProperty(PROP_DB_HOSTNAME)) &&
+				StringUtils.isNotBlank(getProperty(PROP_DB_PORT)) &&
+				StringUtils.isNotBlank(getProperty(PROP_DB_NAME))) {
+			String url = "jdbc:postgresql://" + getProperty(PROP_DB_HOSTNAME) + ":" + getProperty(PROP_DB_PORT) + "/" + getProperty(PROP_DB_NAME);
 			overrides.put(PROP_CONN_URL, url);
-		} else if (StringUtils.isNotBlank(System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL)))) {
-		    String url = "jdbc:" + System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL));
+		} else if (StringUtils.isNotBlank(getProperty(PROP_DB_URL))) {
+		    String url = "jdbc:" + getProperty(PROP_DB_URL);
             overrides.put(PROP_CONN_URL, url);
-            overrides.put(PROP_CONN_USERNAME, null);
-            overrides.put(PROP_CONN_PASSWORD, null);
 		}
 		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size());
 		return overrides;
+	}
+	
+	private static String getProperty(String propName) {
+	    return System.getProperty(propName, System.getenv(propName));
 	}
 
 }
