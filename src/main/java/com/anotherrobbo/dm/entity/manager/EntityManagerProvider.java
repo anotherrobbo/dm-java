@@ -40,7 +40,8 @@ public class EntityManagerProvider {
 		    String url = "jdbc:" + System.getProperty(PROP_DB_URL);
             overrides.put(PROP_CONN_URL, url);
 		}
-		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides");
+		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides, System.getProperty(PROP_DB_URL): " + System.getProperty(PROP_DB_URL));
+		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides, System.getenv(PROP_DB_URL): " + System.getenv(PROP_DB_URL));
 		return overrides;
 	}
 
