@@ -36,12 +36,11 @@ public class EntityManagerProvider {
 				StringUtils.isNotBlank(System.getProperty(PROP_DB_NAME))) {
 			String url = "jdbc:postgresql://" + System.getProperty(PROP_DB_HOSTNAME) + ":" + System.getProperty(PROP_DB_PORT) + "/" + System.getProperty(PROP_DB_NAME);
 			overrides.put(PROP_CONN_URL, url);
-		} else if (StringUtils.isNotBlank(System.getProperty(PROP_DB_URL))) {
-		    String url = "jdbc:" + System.getProperty(PROP_DB_URL);
+		} else if (StringUtils.isNotBlank(System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL)))) {
+		    String url = "jdbc:" + System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL));
             overrides.put(PROP_CONN_URL, url);
 		}
-		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides, System.getProperty(PROP_DB_URL): " + System.getProperty(PROP_DB_URL));
-		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size() + " overrides, System.getenv(PROP_DB_URL): " + System.getenv(PROP_DB_URL));
+		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size());
 		return overrides;
 	}
 
