@@ -14,10 +14,10 @@ public abstract class BaseEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Column(name="created_at")
-	private Timestamp createdAt;
+	private Timestamp createdAt = Timestamp.from(Instant.now());
 
 	@Column(name="updated_at")
-	private Timestamp updatedAt;
+	private Timestamp updatedAt = Timestamp.from(Instant.now());
 	
 	public Timestamp getCreatedAt() {
 		return this.createdAt;
