@@ -1,1 +1,1 @@
-sh target/bin/destinymatches
+web: target/bin/destinymatches
