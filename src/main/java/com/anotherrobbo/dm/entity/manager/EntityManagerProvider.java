@@ -39,6 +39,8 @@ public class EntityManagerProvider {
 		} else if (StringUtils.isNotBlank(System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL)))) {
 		    String url = "jdbc:" + System.getProperty(PROP_DB_URL, System.getenv(PROP_DB_URL));
             overrides.put(PROP_CONN_URL, url);
+            overrides.put(PROP_CONN_USERNAME, null);
+            overrides.put(PROP_CONN_PASSWORD, null);
 		}
 		Logger.getLogger(EntityManagerProvider.class).info("Found " + overrides.size());
 		return overrides;
